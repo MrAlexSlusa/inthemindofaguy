@@ -43,3 +43,19 @@ and `highlight`.
 
 The About portrait is still the striped placeholder — drop a real photograph in
 and replace the `.portrait` block.
+
+## Publishing from Word
+
+Drafts arrive as `.docx` files in `drafts/`. That folder is an inbox — nothing
+in it is live. Publishing a draft means reading the document, adding an entry to
+the right array in `src/content.js`, and pushing to `main`; Actions rebuilds and
+deploys in about half a minute.
+
+What has to be decided per post, beyond the prose itself: which section, the
+slug (it becomes the URL and should not change once published), the dek shown on
+the index page, the date, the read time, and — for Deep Think — the lead-in
+phrase that opens the first paragraph in Space Mono, plus any margin notes or
+pull quotes.
+
+The entry counts on the home page cards are literal strings and need bumping by
+hand when the number of posts changes.
