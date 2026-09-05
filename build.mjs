@@ -94,6 +94,9 @@ function pager({ prev, next, allLabel, allHref }) {
     </nav>`;
 }
 
+// Shown in place of an index list while a section has no posts.
+const emptyState = (text) => `      <p class="empty-state">${text}</p>`;
+
 const marginRail = (notes) =>
   !notes.length ? '<aside class="rail"></aside>' : `<aside class="rail">
 ${notes.map((n) => `        <div class="margin-note">
@@ -115,27 +118,27 @@ ${home.cards.map((c) => `        <a class="section-card" href="${url(c.href)}">
           <p class="section-card__label">${c.label}</p>
           <h2 class="section-card__title">${c.title}</h2>
           <p class="section-card__dek">${c.dek}</p>
-          <p class="section-card__count">${c.count}</p>
+${c.count ? `          <p class="section-card__count">${c.count}</p>` : ''}
         </a>`).join('\n')}
       </div>
-
-      <div class="home-latest">
+${home.latest.length || home.pinned ? `
+      <div class="home-latest${home.pinned ? '' : ' home-latest--single'}">
         <div>
-          <p class="latest-label">most recent</p>
+${home.latest.length ? `          <p class="latest-label">most recent</p>
 ${home.latest.map((r) => `          <a class="latest-row" href="${url(r.href)}">
             <span class="latest-row__date">${r.date}</span>
             <span>
               <h3 class="latest-row__title">${r.title}</h3>
               <p class="latest-row__meta">${r.meta}</p>
             </span>
-          </a>`).join('\n')}
+          </a>`).join('\n')}` : ''}
         </div>
-        <aside class="pinned">
+${home.pinned ? `        <aside class="pinned">
           <p class="pinned__label">pinned</p>
           <p class="pinned__quote">${home.pinned.quote}</p>
           <p class="pinned__attr">${home.pinned.attribution}</p>
-        </aside>
-      </div>
+        </aside>` : ''}
+      </div>` : ''}
     </main>`;
   return layout({
     title: site.title,
@@ -151,15 +154,15 @@ function opinionsIndexPage() {
       <p class="eyebrow">${opinionsIndex.eyebrow}</p>
       <h1 class="section-title">${opinionsIndex.title}</h1>
       <p class="section-intro">${opinionsIndex.intro}</p>
-${opinions.map((o) => `      <a class="opinion-row" href="${url(`/opinions/${o.slug}/`)}">
+${opinions.length ? opinions.map((o) => `      <a class="opinion-row" href="${url(`/opinions/${o.slug}/`)}">
         <span class="opinion-row__num">${o.number}</span>
         <span>
           <h2 class="opinion-row__title">${o.title}</h2>
           <p class="opinion-row__dek">${o.dek}</p>
           <p class="opinion-row__meta">${o.date} · ${o.readTime}</p>
         </span>
-      </a>`).join('\n')}
-      <p class="closing-note">${opinionsIndex.closing}</p>
+      </a>`).join('\n') : emptyState(opinionsIndex.empty)}
+${opinionsIndex.closing ? `      <p class="closing-note">${opinionsIndex.closing}</p>` : ''}
     </main>`;
   return layout({
     title: `Opinions — ${site.title}`,
@@ -214,19 +217,19 @@ ${pager({
 
 function booksPage() {
   const body = `    <main id="main" class="section">
-      <div class="books-head">
+      <div class="books-head${booksIndex.readingNow ? '' : ' books-head--single'}">
         <div>
           <p class="eyebrow">${booksIndex.eyebrow}</p>
           <h1 class="section-title">${booksIndex.title}</h1>
           <p class="books-intro">${booksIndex.intro}</p>
         </div>
-        <div class="reading-now">
+${booksIndex.readingNow ? `        <div class="reading-now">
           <p class="reading-now__label">${booksIndex.readingNow.label}</p>
           <p class="reading-now__line">${booksIndex.readingNow.line}</p>
           <p class="reading-now__progress">${booksIndex.readingNow.progress}</p>
-        </div>
+        </div>` : ''}
       </div>
-      <div class="ledger">
+${books.length ? `      <div class="ledger">
 ${books.map((b) => `        <article class="book${b.highlight ? ' book--highlight' : ''}">
           <div>
             <p class="book__meta-top">${b.number} · ${b.finished}</p>
@@ -242,8 +245,8 @@ ${b.take.map((p) => `            <p>${p}</p>`).join('\n')}
 ${b.quote ? `            <blockquote class="book__quote"><p>${b.quote}</p></blockquote>` : ''}
           </div>
         </article>`).join('\n')}
-      </div>
-      <p class="closing-note">${booksIndex.closing}</p>
+      </div>` : emptyState(booksIndex.empty)}
+${booksIndex.closing ? `      <p class="closing-note">${booksIndex.closing}</p>` : ''}
     </main>`;
   return layout({
     title: `Books — ${site.title}`,
@@ -259,7 +262,7 @@ function deepIndexPage() {
       <p class="eyebrow">${deepIndex.eyebrow}</p>
       <h1 class="section-title">${deepIndex.titleHtml}</h1>
       <p class="section-intro">${deepIndex.intro}</p>
-${essays.map((e, i) => `      <a class="deep-row" href="${url(`/deep-think/${e.slug}/`)}">
+${essays.length ? essays.map((e, i) => `      <a class="deep-row" href="${url(`/deep-think/${e.slug}/`)}">
         <span class="deep-row__num">${e.number}</span>
         <span>
           <h2 class="deep-row__title">${e.title}</h2>
@@ -267,7 +270,7 @@ ${essays.map((e, i) => `      <a class="deep-row" href="${url(`/deep-think/${e.s
           <p class="deep-row__meta">${e.date} · ${e.readTime}</p>
         </span>
         <span class="deep-row__cta"><span class="${i === 0 ? 'is-newest' : ''}">${i === 0 ? 'newest →' : 'read →'}</span></span>
-      </a>`).join('\n')}
+      </a>`).join('\n') : emptyState(deepIndex.empty)}
     </main>`;
   return layout({
     title: `Deep Think — ${site.title}`,
@@ -354,10 +357,10 @@ ${about.facts.map(([k, v]) => `            <dt>${k}</dt><dd>${v}</dd>`).join('\n
           <div class="about-prose">
 ${about.body.map((p) => `            <p>${p}</p>`).join('\n')}
           </div>
-          <div class="about-note">
+${about.note ? `          <div class="about-note">
             <p class="about-note__label">${about.note.label}</p>
             <p class="about-note__text">${about.note.text}</p>
-          </div>
+          </div>` : ''}
         </div>
       </div>
     </main>`;

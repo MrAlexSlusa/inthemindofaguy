@@ -873,3 +873,18 @@ main.article-page { padding: 0 0 80px; }
   .pinned { transform: none; }
   .band-dark .opinion-prose p { color: #000 !important; }
 }
+
+/* ---------- empty sections ---------- */
+
+.empty-state {
+  margin: 0;
+  padding: 26px 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  font-size: 13px;
+  letter-spacing: .08em;
+  color: var(--ink-62);
+}
+
+.home-latest--single,
+.books-head--single { grid-template-columns: minmax(0, 1fr); }
