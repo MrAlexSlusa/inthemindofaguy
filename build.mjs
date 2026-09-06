@@ -41,6 +41,7 @@ function layout({ title, description, crumb, navKey, body }) {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="${url('/styles.css')}">
+<link rel="icon" href="${url('/favicon.svg')}" type="image/svg+xml">
 </head>
 <body>
 <a class="skip-link" href="#main">skip to content</a>
@@ -50,7 +51,7 @@ function layout({ title, description, crumb, navKey, body }) {
     <header class="site-header">
       <div class="site-header__inner">
         <a class="masthead" href="${url('/')}">
-          <span class="masthead__mark" aria-hidden="true"></span>
+          <span class="masthead__mark" aria-hidden="true">_</span>
           <span class="masthead__name">${site.name}</span>
         </a>
         <nav class="site-nav" aria-label="Sections">
@@ -400,6 +401,7 @@ for (const [i, e] of essays.entries()) {
 routes.push(await emit('/about', aboutPage()));
 
 await copyFile(join(root, 'src', 'styles.css'), join(outDir, 'styles.css'));
+await copyFile(join(root, 'src', 'favicon.svg'), join(outDir, 'favicon.svg'));
 // Keep GitHub Pages from running the output through Jekyll.
 await writeFile(join(outDir, '.nojekyll'), '', 'utf8');
 

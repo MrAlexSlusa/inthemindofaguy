@@ -149,10 +149,18 @@ main.article-page { padding: 0 0 80px; }
 }
 .masthead:hover { color: var(--ink); }
 .masthead__mark {
-  width: 11px;
-  height: 11px;
+  width: 18px;
+  height: 18px;
   background: var(--purple);
-  display: inline-block;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--mono-display);
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 1;
+  flex: none;
 }
 .masthead__name {
   font-family: var(--mono-display);

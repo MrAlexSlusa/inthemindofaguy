@@ -5,7 +5,7 @@ import { join, extname } from 'node:path';
 
 const dist = join(process.cwd(), 'dist');
 const port = Number(process.argv[2] || 4321);
-const types = { '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascript' };
+const types = { '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascript', '.svg': 'image/svg+xml' };
 
 createServer(async (req, res) => {
   let p = decodeURIComponent(req.url.split('?')[0]);
