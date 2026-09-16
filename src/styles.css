@@ -812,7 +812,7 @@ main.article-page { padding: 0 0 80px; }
   color: var(--ink-62);
   padding-top: 2px;
 }
-.about-facts dd { margin: 0; }
+.about-facts dd { margin: 0; overflow-wrap: anywhere; }
 .about-facts a { border-bottom: 1px solid currentColor; }
 
 .about-title {
