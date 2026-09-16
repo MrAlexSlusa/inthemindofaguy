@@ -1,9 +1,10 @@
 // Static site generator for "in the mind of a guy".
 // No dependencies. Node 18+.  Usage: node build.mjs   (BASE_PATH=/repo-name for project Pages)
 
-import { mkdir, writeFile, copyFile, rm } from 'node:fs/promises';
+import { mkdir, writeFile, copyFile, rm, readFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createHash } from 'node:crypto';
 
 import {
   site, home, opinionsIndex, opinions, booksIndex, books,
@@ -16,6 +17,12 @@ const outDir = join(root, 'dist');
 // Project Pages serve from /<repo>/ — every internal href goes through url().
 const BASE = (process.env.BASE_PATH || '').replace(/\/$/, '');
 const url = (p) => (p === '/' ? `${BASE}/` : `${BASE}${p}`);
+
+// Cache-bust styles.css so a redeploy is never masked by a stale cached copy.
+const cssHash = createHash('md5')
+  .update(await readFile(join(root, 'src', 'styles.css')))
+  .digest('hex')
+  .slice(0, 8);
 
 const esc = (s) => String(s).replace(/&(?![a-zA-Z#][a-zA-Z0-9]*;)/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
@@ -40,7 +47,7 @@ function layout({ title, description, crumb, navKey, body }) {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="${url('/styles.css')}">
+<link rel="stylesheet" href="${url('/styles.css')}?v=${cssHash}">
 <link rel="icon" href="${url('/favicon.svg')}" type="image/svg+xml">
 </head>
 <body>
