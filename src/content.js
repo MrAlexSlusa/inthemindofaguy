@@ -1,8 +1,7 @@
 // All site content.
 //
-// The site is currently empty, waiting for real writing. Add posts by pushing
-// entries into the arrays below — the index pages, home cards and prev/next
-// chains all build themselves from these.
+// Add posts by pushing entries into the arrays below — the index pages, home
+// cards and prev/next chains all build themselves from these.
 //
 // Anything marked PLACEHOLDER is design filler, not a real claim, and should be
 // replaced before it means anything.
@@ -11,13 +10,13 @@ export const site = {
   title: 'In the mind of a guy',
   name: 'in the mind of a guy',
   year: '2026',
-  email: 'hello@example.com' // PLACEHOLDER
+  email: 'contact.alexander.slusharencu@gmail.com'
 };
 
 export const home = {
   eyebrow: 'a place to put things down',
   title: 'In the mind of a guy',
-  lede: 'Nothing published yet.', // PLACEHOLDER — the standing description of the site
+  lede: 'One book down. More on the way.',
   cards: [
     {
       label: '01 / opinions',
@@ -47,7 +46,14 @@ export const home = {
   ],
   // Newest few posts, shown on the home page. Built by hand so the order is
   // deliberate: { date, title, meta, href }.
-  latest: [],
+  latest: [
+    {
+      date: '16 Sep 2026',
+      title: 'Atomic Habits — Book review',
+      meta: 'books · James Clear',
+      href: '/books/'
+    }
+  ],
   // Set to { quote, attribution } to bring back the purple pinned card.
   pinned: null
 };
@@ -77,7 +83,30 @@ export const booksIndex = {
 
 // Each: { number, finished, title, attribution, mark, tags: [], highlight?,
 //          take: [paragraphs], quote? }
-export const books = [];
+export const books = [
+  {
+    number: '01',
+    finished: '16 Sep 2026',
+    title: 'Atomic Habits',
+    attribution: 'James Clear',
+    mark: '★★★★★',
+    tags: ['habits', 'self-improvement', 'psychology'],
+    take: [
+      '“Habits are the compound interest of self-improvement.” — James Clear',
+      'Have you ever asked yourself “How do I change my day-to-day habits?”. Well, Atomic Habits by James Clear is the best guide there is for the answer. A small disclaimer, this is not a book that says “You need to change that..”, it is a book that presents the psychology behind habits and what you can change everyday so that a new habit can slowly enter your life - but let’s start from the beginning.',
+      '“Atomic Habits” by James Clear - even though this is not the full title, this is the most important part. James Clear is an American author, speaker, and expert focused on habits, decision-making, and continuous self-improvement. Beyond his writing, he reaches millions of readers weekly through his popular "3-2-1" email newsletter. His most popular book is this one, “Atomic Habits”, that has reached over 30 million copies sold worldwide.',
+      'Firstly, the title “Atomic Habits” is a metaphor on which the book is based - meaning small changes (“atomical”), have the biggest impact there is on a person. Besides the metaphor, in his book he states that the 1% everybody ignores everyday, over the course of a year, has an impact that some of us could not even imagine. By applying a simple math on this fact, we can clearly see what it becomes over the course of a year.',
+      'Better with 1% everyday: 1.01<sup>365</sup> = 37.78<br>Worse with 1% everyday: 0.99<sup>365</sup> = 0.03',
+      '37.78 versus 0.03. It is clear as day that there is a very big difference between the two, and he emphasizes on this very much. To understand it better we can put it in the following perspective: let’s say that you want to read 200 pages over the course of 6 months. With 1% better everyday, you will have already read them by <strong>day 115 - 65 days ahead of schedule</strong>. With 1% worse everyday, by <strong>day 115</strong> you will have read <strong>76 pages</strong> and by <strong>day 180</strong> you will have read <strong>92 pages</strong> - this puts you <strong>108 pages (more than half) behind by the deadline.</strong>',
+      'This is only a small demonstration of what “compound interest”, because this is the actual name of the phenomenon, does to you only in the course of 6 months.',
+      'Secondly, the psychology behind a habit that he presented is made of three parts: identity (which is the central part - nucleus), processes (which is the intermediate part) and the outcomes (which is the outer layer). For a better explanation, let’s take losing 10 kg as the example. The outcome is losing 10 kg, the process is going to the gym and the identity is being fitter. Many of us, when we try to change a habit, work from the outside to inside. What that means is that firstly you want to lose 10kg by going to the gym to finally identify as a fitter person, but this is where everything goes wrong - many studies show that “wanting” to become something that you currently aren’t is the biggest “enemy” in changing your identity. This interferes with the mind that says “you can do it tomorrow” or “I will start from monday” - this leads to not changing anything because you don’t yet identify as that person (you are not fit yet, only fit people go to the gym). Because of this, the first layer is not passed and the habit gets left behind. Instead, the better approach is to start from inside, from the nucleus, and working your way to the outside. Saying “I want to lose 10 kg” is not better than saying “I am a person that goes to the gym”, but this tricks your brain. With every opportunity, if you say that you go the gym, you will finally start going because you started identifying as that person - this leads to working out and finally losing the 10 kg you desired.',
+      'To conclude, this book is not telling you what you have to do now to change your habits, but it presents you with the psychology behind the small changes that to the naked eye are not worth anything and that are helping you everyday change what you do in order to achieve your goals.',
+      'This was just a small introduction to the book, of course you have to buy it if you want to learn more, but in my opinion this book is really well structured and has some key elements that you don’t hear everyday. To some of us they aren’t that important or we just “already know them” but if you study it a little bit more, you will be able to change your day-to-day life by adjusting small habits. This is also the reason I started this blog - I also wanted to write articles and talk about my opinion, but until I said “I like to write blogs” and I got the question “So what did you write?”, I didn’t start doing anything because it was hard breaking that first layer.',
+      'In the end, I hope you enjoyed this article and I will leave you with my favourite quote from the book. Peace!'
+    ],
+    quote: '“When you fall in love with the process rather than the product, you don’t have to wait to give yourself permission to be happy. You can be satisfied anytime your system is running.” —James Clear, Atomic Habits'
+  }
+];
 
 export const deepIndex = {
   eyebrow: 'section 03',
@@ -96,16 +125,17 @@ export const about = {
   eyebrow: 'section 04',
   title: "The guy, and what he's doing here.",
   portraitCaption: '[ portrait — drop image here ]',
-  // PLACEHOLDER — real details go here.
+  // 'writing' tracks the category and date of the most recent post — update
+  // it whenever a new post is published.
   facts: [
-    ['writing', '—'],
-    ['based', '—'],
-    ['day job', '—'],
-    ['email', '—']
+    ['writing', 'books · 16 Sep 2026'],
+    ['based', 'Book, Life, Thoughts'],
+    ['day job', 'Student'],
+    ['email', 'contact.alexander.slusharencu@gmail.com']
   ],
-  // PLACEHOLDER — replace with the real introduction.
   body: [
-    'Still writing this part.'
+    'If you are here, then probably (I mean sure), you want to learn about the guy behind all of this. Well, here I am. My name is Alexandru, Alex how my friends know me, and I started this whole from a thought that was bugging me in the back of my head: “If you want to talk about the things you like, why don’t you start a blog where you can write about everything - tech, books, thoughts, psychology and other things like that”. This thought stayed in my head for a long time and now, on the 1st of September 2026, I write the first “article” of this blog - the about me section :) .',
+    'If you want to see more of me talking, you can also follow me on tiktok and instagram at @alex_slusha (thank you). That’s pretty much all about me, I hope you like what I write about here and if you do, make sure that you recommend it to your friends & family.'
   ],
   note: null
 };
