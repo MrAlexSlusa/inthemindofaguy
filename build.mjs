@@ -349,7 +349,7 @@ function aboutPage() {
             <span>${about.portraitCaption}</span>
           </div>
           <dl class="about-facts">
-${about.facts.map(([k, v]) => `            <dt>${k}</dt><dd>${v}</dd>`).join('\n')}
+${about.facts.map(([k, v]) => `            <dt>${k}</dt><dd class="fact-${k.replace(/\s+/g, '-')}">${v}</dd>`).join('\n')}
           </dl>
         </div>
         <div>
