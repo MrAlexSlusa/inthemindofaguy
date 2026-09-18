@@ -600,6 +600,12 @@ main.article-page { padding: 0 0 80px; }
   align-items: center;
 }
 .book__stars { font-size: 14px; color: var(--purple); }
+.star-half {
+  color: transparent;
+  background: linear-gradient(90deg, var(--purple) 50%, var(--purple-hair-strong) 50%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
 .chip {
   font-size: 11px;
   letter-spacing: .08em;
