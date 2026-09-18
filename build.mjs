@@ -244,7 +244,7 @@ ${books.map((b) => `        <article class="book${b.highlight ? ' book--highligh
             <h2 class="book__title">${b.title}</h2>
             <p class="book__attribution">${b.attribution}</p>
             <div class="book__marks">
-              <span class="book__stars" aria-label="${b.mark.split('★').length - 1} out of 5">${b.mark}</span>
+              <span class="book__stars" aria-label="${b.mark.split('★').length - 1 + (b.mark.includes('½') ? 0.5 : 0)} out of 5">${b.mark}</span>
 ${b.tags.map((t) => `              <span class="chip${b.highlight ? ' chip--purple' : ''}">${t}</span>`).join('\n')}
             </div>
           </div>

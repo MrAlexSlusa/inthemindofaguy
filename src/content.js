@@ -95,7 +95,7 @@ export const books = [
     finished: '17 Sep 2026',
     title: 'The Psychology of Money',
     attribution: 'Morgan Housel',
-    mark: '★★★★☆',
+    mark: '★★★½',
     tags: ['money', 'investing', 'psychology'],
     take: [
       '“Getting money is one thing. Keeping it is another.” — Morgan Housel',
