@@ -34,6 +34,7 @@
   --purple-hair-strong: rgba(91, 45, 142, .5);
   --purple-tint: rgba(91, 45, 142, .045);
   --highlighter: rgba(91, 45, 142, .26);
+  --star-empty: rgba(23, 20, 29, .22);
 
   --mono-display: 'Space Mono', ui-monospace, Menlo, monospace;
   --mono-body: 'IBM Plex Mono', ui-monospace, Menlo, monospace;
@@ -600,9 +601,11 @@ main.article-page { padding: 0 0 80px; }
   align-items: center;
 }
 .book__stars { font-size: 14px; color: var(--purple); }
-.star-half {
+.star--empty { color: var(--star-empty); }
+/* Half mark: purple up to the midpoint, empty-star grey after it. */
+.star--half {
   color: transparent;
-  background: linear-gradient(90deg, var(--purple) 50%, var(--purple-hair-strong) 50%);
+  background: linear-gradient(90deg, var(--purple) 50%, var(--star-empty) 50%);
   -webkit-background-clip: text;
   background-clip: text;
 }

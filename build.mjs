@@ -105,6 +105,21 @@ function pager({ prev, next, allLabel, allHref }) {
 // Shown in place of an index list while a section has no posts.
 const emptyState = (text) => `      <p class="empty-state">${text}</p>`;
 
+// A book `mark` is written as stars with an optional trailing ½ ('★★★½').
+// Always rendered as five slots so the out-of-five scale stays readable:
+// full stars, then a half-filled one, then the empty remainder.
+function stars(mark) {
+  const score = (mark.split('★').length - 1) + (mark.includes('½') ? 0.5 : 0);
+  const full = Math.floor(score);
+  const half = score % 1 >= 0.5;
+  const glyphs = [
+    ...Array(full).fill('★'),
+    ...(half ? ['<span class="star--half">★</span>'] : []),
+    ...Array(5 - full - (half ? 1 : 0)).fill('<span class="star--empty">★</span>')
+  ];
+  return `<span class="book__stars" aria-label="${score} out of 5">${glyphs.join('')}</span>`;
+}
+
 const marginRail = (notes) =>
   !notes.length ? '<aside class="rail"></aside>' : `<aside class="rail">
 ${notes.map((n) => `        <div class="margin-note">
@@ -244,7 +259,7 @@ ${books.map((b) => `        <article class="book${b.highlight ? ' book--highligh
             <h2 class="book__title">${b.title}</h2>
             <p class="book__attribution">${b.attribution}</p>
             <div class="book__marks">
-              <span class="book__stars" aria-label="${b.mark.split('★').length - 1 + (b.mark.includes('½') ? 0.5 : 0)} out of 5">${b.mark.replace('½', '<span class="star-half" aria-hidden="true">★</span>')}</span>
+              ${stars(b.mark)}
 ${b.tags.map((t) => `              <span class="chip${b.highlight ? ' chip--purple' : ''}">${t}</span>`).join('\n')}
             </div>
           </div>
