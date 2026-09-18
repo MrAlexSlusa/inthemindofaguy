@@ -48,6 +48,12 @@ export const home = {
   // deliberate: { date, title, meta, href }.
   latest: [
     {
+      date: '17 Sep 2026',
+      title: 'The Psychology of Money — Book review',
+      meta: 'books · Morgan Housel',
+      href: '/books/'
+    },
+    {
       date: '16 Sep 2026',
       title: 'Atomic Habits — Book review',
       meta: 'books · James Clear',
@@ -84,6 +90,26 @@ export const booksIndex = {
 // Each: { number, finished, title, attribution, mark, tags: [], highlight?,
 //          take: [paragraphs], quote? }
 export const books = [
+  {
+    number: '02',
+    finished: '17 Sep 2026',
+    title: 'The Psychology of Money',
+    attribution: 'Morgan Housel',
+    mark: '★★★★☆',
+    tags: ['money', 'investing', 'psychology'],
+    take: [
+      '“Getting money is one thing. Keeping it is another.” — Morgan Housel',
+      'Money. Everybody likes money, wants to have it and dreams of spending more than they actually make. The question is: “Have you ever asked yourself <strong>the psychology behind every financially successful person</strong>?”. No? Well today we will analyze together “The Psychology of Money” to better understand it.',
+      'Morgan Housel, the author of this book, is a former Wall Street Journal columnist and partner at Collaborative Fund specializing in behavioral finance and investing. His writing focuses on long-term thinking, risk management, and <u>the difference between getting wealthy and staying wealthy</u>.',
+      'Firstly, let’s talk about the title because it is very interesting - nothing like we’ve ever seen before - “The Psychology of Money”. If you read the book you will see that the title can be split in two - psychology and money. What he describes as “the psychology” is the mentality of the wealthiest people that we know, built through decades of discipline, that helped them achieve the net worth they have right now (the examples will be soon). Also, the word “money” refers to the deep analysis of the stock market and S&amp;P 500 from the start of it until the present - let’s call it a “history of the market”.',
+      'Secondly, all of his studies are also accompanied by examples from wealthy people like Ronald Reed, Richard Slocum and Warren Buffett - this shows that the saying “the perfect person at the perfect time” isn’t just a saying - it is a reality. He highlights the fact that <strong>compound interest</strong> and <strong>“staying rich vs getting rich”</strong> are what make Warren Buffett the person he is today - but let’s put it a little bit in perspective.',
+      'Compound interest is a way where you deposit your money into an account and, by having an annual interest (compound interest at 22%), that money slowly grows and you get more and more. But the question is: what did Warren Buffett do differently than others to get to a net worth of over $148 billion? The simple answer is <strong>time</strong>. He started investing at 10 - that is the moment that started everything - $25.000 in and billions at 60 years old (yes, you read that right, 60). He didn’t become rich overnight - it was a slow road, but that 22% grew more and more until now. If he had invested the same amount but started at 30, he would only have got $11.9 million. What we can learn from this is that <u>20 years of investing can cost you billions</u>. Also, “staying rich vs getting rich” is the complement of investing - you need to learn how to stay rich, rather than learn how to get rich. Getting rich requires optimism, risk-taking, and confidence. Staying rich requires the exact opposite: humility, paranoia, and a healthy fear of losing everything. Morgan Housel notes that while thousands of people get rich through bold bets, those who stay rich do so because they focus on <strong>survival at all costs</strong>.',
+      'Thirdly, he analyzes and talks a lot about the history of the S&amp;P 500 and how it changed during these years. He explains that the stock market is not just a math problem with a simple answer, but rather <u>a reflection of human emotions</u>. By looking back at major events like economic crises and crashes, Housel shows that the market always changes, but human behavior stays exactly the same. People constantly move between greed when prices go up and absolute panic when they drop. The author points out that the S&amp;P 500 is successful because it naturally replaces failing companies with stronger ones over time. However, ordinary investors often fail to make money because they do not have the patience to wait out the bad times. Ultimately, this historical analysis proves that long-term success in the market does not come from being incredibly smart, but from <strong>being emotionally stable enough to survive the difficult moments without panic selling</strong>.',
+      'For today, that will be all. My personal opinion? I like the fact that he presents the people and their mentality but I don’t enjoy looking at so many graphs and stories about the 1920s and 1930s. I know that they are very important for the story and to show what he wants to say, but I believe that some chapters could be changed.',
+      'In the end, I hope you enjoyed this article and I will leave you with my favourite quote from the book. Peace!'
+    ],
+    quote: '“Reputation is invaluable. Freedom and independence are invaluable. Family and friends are invaluable. Being loved by those who you want to love you is invaluable. Happiness is invaluable. And your best shot at keeping these things is knowing when it’s time to stop taking risks that might harm them. <em>Knowing when you have enough</em>.” —Morgan Housel, The Psychology of Money'
+  },
   {
     number: '01',
     finished: '16 Sep 2026',
@@ -128,7 +154,7 @@ export const about = {
   // 'writing' tracks the category and date of the most recent post — update
   // it whenever a new post is published.
   facts: [
-    ['writing', 'books · 16 Sep 2026'],
+    ['writing', 'books · 17 Sep 2026'],
     ['based', 'Book, Life, Thoughts'],
     ['day job', 'Student'],
     ['email', 'contact.alexander.slusharencu@gmail.com']
