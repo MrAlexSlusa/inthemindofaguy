@@ -48,6 +48,12 @@ export const home = {
   // deliberate: { date, title, meta, href }.
   latest: [
     {
+      date: '29 Oct 2026',
+      title: 'Everybody has done the maths',
+      meta: 'opinions · habits, maths',
+      href: '/opinions/everybody-has-done-the-maths/'
+    },
+    {
       date: '17 Sep 2026',
       title: 'The Psychology of Money — Book review',
       meta: 'books · Morgan Housel',
@@ -75,7 +81,33 @@ export const opinionsIndex = {
 // Each: { number, slug, title, titleHtml?, dek, date, readTime, eyebrow,
 //          inverted?, body: [paragraphs] }
 // Newest first. `inverted: true` puts the essay on the dark purple band.
-export const opinions = [];
+export const opinions = [
+  {
+    number: '01',
+    slug: 'everybody-has-done-the-maths',
+    title: 'Everybody has done the maths.',
+    // titleHtml carries the highlighter sweep from the design.
+    titleHtml: 'Everybody has done <span class="mark">the maths</span>.',
+    dek: 'The 1% is the easy part. The whole result is in the number of days you showed up.',
+    date: 'oct 2026',
+    readTime: '5 min read',
+    eyebrow: '01 · oct 2026 · 5 min',
+    inverted: false,
+    body: [
+      '“Everybody has done the maths. Almost nobody has done the days.”',
+      'Have you ever asked yourself why you can explain something perfectly and still not do it? I can explain compound habits to you right now, in two minutes, with the arithmetic - I wrote a whole article about it on this blog in September. And if you asked me what actually changed in my week after I wrote it, the honest answer is: nothing I could point at. So the question is: <strong>if understanding the mechanism is free, why does nothing move?</strong> Let’s start from the beginning.',
+      'The idea in one paragraph, for anyone who has not read the Atomic Habits review here. James Clear argues that habits work like compound interest: a 1% improvement, repeated, does something to you that one big effort never can. Run it for a year and the numbers stop looking reasonable.<br>Better by 1% every day: 1.01<sup>365</sup> = 37.78<br>Worse by 1% every day: 0.99<sup>365</sup> = 0.03<br>Thirty-seven against almost zero. It is the most quoted calculation in self-improvement, and it is correct.',
+      'Firstly, let’s be honest about what reading that costs you - nothing. Twenty minutes and a good feeling. And the good feeling is the actual problem, because <u>understanding a mechanism feels almost exactly like owning it</u>. I can explain how a bench press works. Explaining it has never once moved the bar. The maths of compound habits is that same kind of knowledge: a description of a result, not a method for reaching it, and the moment you finish reading it your brain files the whole subject under “done”.',
+      'Secondly, there is a number in that formula that almost nobody fills in, and it is not the 1%. It is the exponent - the days you actually showed up. Watch what happens when you stop assuming a perfect year.<br>Every single day: 1.01<sup>365</sup> = 37.78<br>Six days a week, one rest day: 1.01<sup>313</sup> = 22.52<br>Three days a week, which is how most of us really live: 1.01<sup>156</sup> = 4.72<br>Look at the middle line again. One rest day a week - the most reasonable thing in the world - and you did <strong>86% of the days for 60% of the result</strong>. The bottom line is worse: three days a week is 43% of the days and <strong>12% of the result</strong>. <u>The 1% is not what makes the number big. The days are.</u>',
+      'This cuts both ways, and I think the second half is the part worth keeping. The bad news is that the version of a habit most of us run - a few times a week, when the week allows it - pays nothing close to what we imagined while reading the book. The good news is that the distance between 4.72 and 22.52 is not made of talent, or discipline, or any other thing you either have or you don’t. It is made of <strong>three days</strong>. Three days a week is the entire difference between a habit that does almost nothing and a habit that does most of what was advertised.',
+      'Thirdly, what I am going to do about it, because an article that ends in agreement is worth nothing. One habit, thirty days, written on a piece of paper where I have to look at it, and the only thing I am allowed to write down is whether I showed up. Not how it went. Not how I felt about it. Showed up, or didn’t. And I already know what thirty days gives back:<br>1.01<sup>30</sup> = 1.35<br>0.99<sup>30</sup> = 0.74<br>1.35. That is nothing. Nobody is going to notice 1.35 on me, and that is exactly why I am counting days instead of results - <u>the first month is not the payoff, it is the proof that I can be the person who attends</u>.',
+      'The thing that will try to end it is not a bad day, it is the second one. One missed day is a rest day and the exponent barely notices. Two missed days in a row is a new pattern, and the sentence that comes next is always the same: “I will start again on Monday”. Clear has three words for this that are worth more than the chapter around them - never miss twice. I am writing them at the top of the paper.',
+      'For today, that will be all. My personal opinion? I still think the idea is right and I gave the book five stars for a reason. But the framing bothers me more the longer I sit with it. Calling it “1% better” puts all the attention on the size of the step, when everything in the formula that matters is the exponent - and worse, 1% is not something you can measure in a real day. I cannot read 1% better today. Nobody can. What I can do is open the book or not open it, which is a yes or a no, not a percentage. If I were writing that chapter I would put the days first and the 1% second, as the thing that makes attendance worth something rather than the thing you are supposed to be optimising.',
+      'In the end, I hope you enjoyed this article and I will leave you with the line I opened it with, because it is the whole thing in one sentence. Peace!',
+      '“Everybody has done the maths. Almost nobody has done the days.”'
+    ]
+  }
+];
 
 export const booksIndex = {
   eyebrow: 'section 02',
@@ -154,7 +186,7 @@ export const about = {
   // 'writing' tracks the category and date of the most recent post — update
   // it whenever a new post is published.
   facts: [
-    ['writing', 'books · 17 Sep 2026'],
+    ['writing', 'opinions · 29 Oct 2026'],
     ['based', 'Book, Life, Thoughts'],
     ['day job', 'Student'],
     ['email', 'contact.alexander.slusharencu@gmail.com']
