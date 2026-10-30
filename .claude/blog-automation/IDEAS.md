@@ -23,9 +23,6 @@ with the draft.
 3. **The phone is a slot machine with homework on it.** Variable reward, and
    why "just checking" costs more than the minutes it takes. Lean on: the cost
    of re-entering a task after an interruption.
-4. **Saving money at eighteen is not about the money.** It is about the habit
-   being cheap now and expensive later. Lean on: the same deposit started at
-   18 versus at 30 at the same rate.
 5. **Identity before outcome, applied to being a student.** "I am a person who
    studies" versus "I want good grades" — the Atomic Habits argument tested on
    school.
@@ -68,3 +65,4 @@ with the draft.
 
 - **The 1% nobody applies.** 29 oct 2026 - proposed (thread 1a189a3fee919851), published as
   "Everybody has done the maths." if approved.
+- **Saving money at eighteen is not about the money.** 30 oct 2026 - published as "Saving at eighteen is not about the money." (thread 1a18bf7b77670544).

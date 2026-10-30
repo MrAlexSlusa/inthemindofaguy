@@ -48,6 +48,12 @@ export const home = {
   // deliberate: { date, title, meta, href }.
   latest: [
     {
+      date: '30 Oct 2026',
+      title: 'Saving at eighteen is not about the money',
+      meta: 'opinions · saving, habits',
+      href: '/opinions/saving-at-eighteen-is-not-about-the-money/'
+    },
+    {
       date: '29 Oct 2026',
       title: 'Everybody has done the maths',
       meta: 'opinions · habits, maths',
@@ -57,12 +63,6 @@ export const home = {
       date: '17 Sep 2026',
       title: 'The Psychology of Money — Book review',
       meta: 'books · Morgan Housel',
-      href: '/books/'
-    },
-    {
-      date: '16 Sep 2026',
-      title: 'Atomic Habits — Book review',
-      meta: 'books · James Clear',
       href: '/books/'
     }
   ],
@@ -82,6 +82,30 @@ export const opinionsIndex = {
 //          inverted?, body: [paragraphs] }
 // Newest first. `inverted: true` puts the essay on the dark purple band.
 export const opinions = [
+  {
+    number: '02',
+    slug: 'saving-at-eighteen-is-not-about-the-money',
+    title: 'Saving at eighteen is not about the money.',
+    titleHtml: 'Saving at eighteen is not <span class="mark">about the money</span>.',
+    dek: 'The same $100 a month costs almost nothing at eighteen and a lot at thirty. What the early years really buy is the habit.',
+    date: 'oct 2026',
+    readTime: '5 min read',
+    eyebrow: '02 · oct 2026 · 5 min',
+    inverted: true,
+    body: [
+      '“The deposit is cheap. The habit is what you are really buying.”',
+      'Have you ever asked yourself why everybody older than you says “start saving early”, and why it never sounds like advice you can use? I think I know why. It is always said as if it were a rule about money, and at eighteen you do not have money. So the question is: <strong>if I have almost nothing to save, what exactly is early supposed to give me?</strong> Let’s start from the beginning, with the numbers, because they are the part nobody argues with.',
+      'Here is the setup, and I want to be clear that it is an example I built, not a prediction. Two people save the same thing: $1.200 a year, so $100 a month. They both earn 7% a year on it, and for simplicity the interest is added once per year, at the end of the year. The 7% is an assumption I picked for the exercise, nobody promises it, and real returns jump around from year to year. Both stop at 65. The only difference is when they begin. One starts at 18, the other at 30.',
+      'Firstly, let’s see what each of them ends up with.<br>Starting at 18, so 47 years of deposits: $1.200 put in 47 times is $56.400, and it grows to <strong>$395.069</strong><br>Starting at 30, so 35 years of deposits: $1.200 put in 35 times is $42.000, and it grows to <strong>$165.884</strong><br>Look at the gap between the two lists. The person who started at 18 put in $14.400 more and finished with $229.185 more. <u>Twelve extra years of saving cost $14.400 and returned $229.185</u>, which is almost 16 dollars out for every dollar in. Those twelve years were not special. They were just the ones that had the longest time left to grow.',
+      'Secondly, here is the version that surprised me more. Take a third person who starts at 18 like the first one, but gets tired and stops after only 10 years. Total deposited: $12.000. After that, not one more dollar goes in, the money just sits there at the same 7% until 65.<br>$1.200 a year for 10 years at 7% = $16.580<br>$16.580 left alone for 37 more years = <strong>$202.664</strong><br>Read that twice. $12.000 put in before 28 beats $42.000 put in between 30 and 65. The person who deposited less than a third of the money finished <u>with more, because the money had a head start the other one can never buy back</u>.',
+      'Now, notice what that does to the usual advice. If it were only about the money, the conclusion would be “earn more, then save more”, and you would wait until you had a salary worth saving from. The arithmetic says the opposite. The first ten years are the ones that carry the whole result, and in those years the deposit is smallest and the sacrifice is smallest too. <strong>$100 a month at eighteen is a few nights out. $100 a month at thirty is a bill you notice.</strong> The same amount, the same discipline, a completely different price.',
+      'Thirdly, and this is why I put “not about the money” in the title. If the money were the point, an 18 year old saving $100 a month would be doing something almost pointless, since $16.580 after ten years is not going to change anybody’s life. What it does change is the person. It is the first time you set up something that works while you are not thinking about it, and you find out that you can live fine without that $100. I wrote in the Atomic Habits review that identity sits in the middle of everything. “I am a person who saves” is a sentence you can only say honestly after you have done it for a while, and <u>the cheapest moment to start building that sentence is when the habit costs you almost nothing</u>.',
+      'I want to be honest about what this does not show. The 7% is not guaranteed, and some years it will be negative. Prices go up, so $395.069 in 47 years will not buy what it buys today, and I did not adjust for that. I also ignored taxes and fees, and I ignored the biggest thing of all - that at eighteen you may truly not have $100 a month, and nothing I wrote changes that. So read the numbers as the shape of the thing, not as a forecast. The shape is what I trust: the early years weigh more than the late ones, and they weigh most exactly when the amount is smallest.',
+      'For today, that will be all. My personal opinion? I think the argument is right and I still do not fully like how it gets told. “Start early” is true, but it quietly shames everybody who is thirty, or forty, and did not. They are not lost - the 30 year old above still finishes with $165.884, and the next best time to start is today. And I will also admit that I find the 18 versus 30 comparison a bit too tidy, because nobody lives that cleanly for 47 years. What I take from it is smaller and more useful than the headline: if the money is going to be small anyway, then the real thing to protect in the beginning is the <strong>habit</strong>, and the habit should be cheap enough that nothing talks you out of it.',
+      'In the end, I hope you enjoyed this article and I will leave you with the line that started all of this. Peace!',
+      '“The deposit is cheap. The habit is what you are really buying.”'
+    ]
+  },
   {
     number: '01',
     slug: 'everybody-has-done-the-maths',
@@ -186,7 +210,7 @@ export const about = {
   // 'writing' tracks the category and date of the most recent post — update
   // it whenever a new post is published.
   facts: [
-    ['writing', 'opinions · 29 Oct 2026'],
+    ['writing', 'opinions · 30 Oct 2026'],
     ['based', 'Book, Life, Thoughts'],
     ['day job', 'Student'],
     ['email', 'contact.alexander.slusharencu@gmail.com']
