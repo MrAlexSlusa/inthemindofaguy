@@ -24,7 +24,11 @@
     "threadId": "1a18bf7b77670544",
     "messageId": "1a18bf7b77670544",
     "draftPath": ".claude/blog-automation/drafts/2026-10-30-saving-at-eighteen-is-not-about-the-money.json",
-    "status": "pending",
-    "revisions": 0
+    "status": "published",
+    "revisions": 0,
+    "approvedReply": "da",
+    "publishedAt": "2026-10-30T09:14:14.687Z",
+    "url": "https://mralexslusa.github.io/inthemindofaguy/opinions/saving-at-eighteen-is-not-about-the-money/",
+    "commit": "c4982c267c2bd95d5304b38b1df3df0d720df607"
   }
 ]
