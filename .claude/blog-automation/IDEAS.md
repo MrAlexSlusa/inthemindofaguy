@@ -40,8 +40,6 @@ with the draft.
     which number he would rather have.
 12. **Taking notes you never open.** When writing it down is thinking and when
     it is theatre.
-13. **The cost of "I will start on Monday".** Count the Mondays in a year that
-    have been promised something.
 14. **Why people quit in week three.** The point where the novelty is gone and
     the result has not arrived yet.
 15. **Boredom is a skill.** What goes missing when every queue is filled with
@@ -66,3 +64,4 @@ with the draft.
 - **The 1% nobody applies.** 29 oct 2026 - proposed (thread 1a189a3fee919851), published as
   "Everybody has done the maths." if approved.
 - **Saving money at eighteen is not about the money.** 30 oct 2026 - published as "Saving at eighteen is not about the money." (thread 1a18bf7b77670544).
+- **The cost of "I will start on Monday".** 31 oct 2026 - proposed (thread 1a190e63fe7e1bde), published as "The cost of starting on Monday." if approved.
