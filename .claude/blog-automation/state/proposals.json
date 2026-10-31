@@ -40,7 +40,11 @@
     "threadId": "1a190e63fe7e1bde",
     "messageId": "1a190e63fe7e1bde",
     "draftPath": ".claude/blog-automation/drafts/2026-10-31-the-cost-of-starting-on-monday.json",
-    "status": "pending",
-    "revisions": 0
+    "status": "published",
+    "revisions": 0,
+    "approvedReply": "da",
+    "publishedAt": "2026-10-31T15:41:00.000Z",
+    "url": "https://mralexslusa.github.io/inthemindofaguy/opinions/the-cost-of-starting-on-monday/",
+    "commit": "335b896dcd4268d4875a25fe32fd8221af2ebea6"
   }
 ]
