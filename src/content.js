@@ -48,6 +48,12 @@ export const home = {
   // deliberate: { date, title, meta, href }.
   latest: [
     {
+      date: '1 Nov 2026',
+      title: 'Studying is not learning',
+      meta: 'opinions · studying, memory',
+      href: '/opinions/studying-is-not-learning/'
+    },
+    {
       date: '31 Oct 2026',
       title: 'The cost of starting on Monday',
       meta: 'opinions · habits, mondays',
@@ -58,12 +64,6 @@ export const home = {
       title: 'Saving at eighteen is not about the money',
       meta: 'opinions · saving, habits',
       href: '/opinions/saving-at-eighteen-is-not-about-the-money/'
-    },
-    {
-      date: '29 Oct 2026',
-      title: 'Everybody has done the maths',
-      meta: 'opinions · habits, maths',
-      href: '/opinions/everybody-has-done-the-maths/'
     }
   ],
   // Set to { quote, attribution } to bring back the purple pinned card.
@@ -82,6 +82,31 @@ export const opinionsIndex = {
 //          inverted?, body: [paragraphs] }
 // Newest first. `inverted: true` puts the essay on the dark purple band.
 export const opinions = [
+  {
+    number: '04',
+    slug: 'studying-is-not-learning',
+    title: 'Studying is not learning.',
+    titleHtml: 'Studying is not <span class="mark">learning</span>.',
+    dek: 'Students who read a text four times remembered the least a week later, and were the most sure they would remember it.',
+    date: 'nov 2026',
+    readTime: '5 min read',
+    eyebrow: '04 · nov 2026 · 5 min',
+    inverted: false,
+    body: [
+      '“The page you can recognise is not the page you can remember.”',
+      'Have you ever asked yourself how much of what you studied last week you could write down right now, with the book closed? Not recognise if you saw it again - write down. I am a student, so this is not a theoretical question for me. Today is the 1st of November, the year has two months left, and for anyone in school that means the hours at the desk are about to go up. So the question is: <strong>are those hours turning into something that stays, or are they just hours?</strong> Let’s start from the beginning.',
+      'The way most of us study, and the way I studied for years, is simple. You open the notes, you read them, and when you finish you read them again. A second time, a third time, maybe with a highlighter so it feels more serious. Nobody really teaches you this, you just do it. And it has one big advantage - every time you go through the page it feels easier, and easier feels exactly like progress.',
+      'Firstly, let’s split the title in two, the way I like to do. <strong>“Studying”</strong> is something you do - it is measured in hours, in pages, in how tired you are at the end of the evening. <strong>“Learning”</strong> is something that happens to you - it is measured only later, when the book is closed and somebody asks you a question. The problem is that we track the first one and assume the second one comes with it. <u>Time at the desk is the input, not the result</u>, and the two can be very far apart without you noticing anything.',
+      'Secondly, let’s look at an experiment that measured exactly that gap. In 2006, two psychologists from Washington University in St. Louis, Henry Roediger and Jeffrey Karpicke, published a study called <strong>“Test-Enhanced Learning”</strong>. Students got a short text to learn, and the groups spent their sessions differently. One group read it four times. Another group read it once and then, three times, put the text away and wrote down everything they could remember. Same text, same number of sessions. The only difference was reading versus trying to remember.',
+      'Five minutes after the last session, the group that read it four times was ahead, which is what everybody would expect. A week later, it turned around.<br>Read it four times: <strong>40%</strong> of the ideas remembered after one week<br>Read it once, then tried to recall it three times: <strong>61%</strong> after one week<br>61 against 40 is 21 points, and 21 out of 40 means the second group remembered about <strong>52% more</strong>, with three fewer readings. Let’s put it a little bit in perspective. Say a subject has 10 chapters with 100 ideas each, 1.000 ideas in total. After a week, the first method leaves you with about 400 and the second with about 610. <u>That is 210 ideas, and the only thing that bought them was closing the book.</u>',
+      'Thirdly, and this is the part that bothered me the most. The students were also asked how well they thought they would remember the text a week later. The group that read it four times gave the highest predictions. The group that kept testing itself gave the lowest. Exactly the opposite of what happened. I think this explains why everybody keeps re-reading: when you read a page for the third time it feels familiar, and <strong>familiar feels like known</strong>. But recognising something when it is in front of you and pulling it out of your head when it is not are two different skills, and the exam only asks for the second one.',
+      'This is also why testing yourself feels so bad. You close the book, you try to remember, you get maybe half of it, and the half you did not get is right there, staring at you. Re-reading never shows you that empty half. <u>Re-reading feels good because it hides what you do not know, and testing feels bad because it shows it to you.</u> The feeling is wrong in both directions.',
+      'So here is what I am going to do, because an article like this is worthless if it ends only in agreement. For the rest of November, every time I finish a chapter, I read it once, I close it, and I write on an empty page everything I can remember before I open it again. And the thing I will measure is not the hours (I already know I can sit at a desk). It is how much of that page I can fill a week later, with nothing in front of me. If the number is embarrassing at the beginning, then good - at least it is a real number.',
+      'For today, that will be all. My personal opinion? I think the result is right, and it changed how I look at my own evenings at the desk. But I have to be fair: this was one study, with short texts and students in a lab, not a whole semester of real subjects, and I would not build everything on one paper. Re-reading is also not useless - the first reading is how the information gets in at all, and you cannot recall something you never read. And I will admit that testing yourself is slower and much more annoying, and on a tired evening I know which one I will want to do. What I take from it is smaller: <strong>the hours are not the learning, what you can write with the book closed is</strong>.',
+      'In the end, I hope you enjoyed this article and I will leave you with the line that started all of this. Peace!',
+      '“The page you can recognise is not the page you can remember.”'
+    ]
+  },
   {
     number: '03',
     slug: 'the-cost-of-starting-on-monday',
@@ -235,7 +260,7 @@ export const about = {
   // 'writing' tracks the category and date of the most recent post — update
   // it whenever a new post is published.
   facts: [
-    ['writing', 'opinions · 31 Oct 2026'],
+    ['writing', 'opinions · 1 Nov 2026'],
     ['based', 'Book, Life, Thoughts'],
     ['day job', 'Student'],
     ['email', 'contact.alexander.slusharencu@gmail.com']
