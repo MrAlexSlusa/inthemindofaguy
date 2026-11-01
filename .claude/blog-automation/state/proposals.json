@@ -56,7 +56,11 @@
     "threadId": "1a1960f3f10bbc35",
     "messageId": "1a1960f3f10bbc35",
     "draftPath": ".claude/blog-automation/drafts/2026-11-01-studying-is-not-learning.json",
-    "status": "pending",
-    "revisions": 0
+    "status": "published",
+    "revisions": 0,
+    "approvedReply": "da",
+    "publishedAt": "2026-11-01T10:16:23.304Z",
+    "url": "https://mralexslusa.github.io/inthemindofaguy/opinions/studying-is-not-learning/",
+    "commit": "09797e2d2604e8f92c96651c2a4e8bab2fd053f3"
   }
 ]
