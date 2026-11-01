@@ -46,5 +46,17 @@
     "publishedAt": "2026-10-31T15:41:00.000Z",
     "url": "https://mralexslusa.github.io/inthemindofaguy/opinions/the-cost-of-starting-on-monday/",
     "commit": "335b896dcd4268d4875a25fe32fd8221af2ebea6"
+  },
+  {
+    "id": "2026-11-01-studying-is-not-learning",
+    "date": "2026-11-01",
+    "slug": "studying-is-not-learning",
+    "title": "Studying is not learning.",
+    "section": "opinions",
+    "threadId": "1a1960f3f10bbc35",
+    "messageId": "1a1960f3f10bbc35",
+    "draftPath": ".claude/blog-automation/drafts/2026-11-01-studying-is-not-learning.json",
+    "status": "pending",
+    "revisions": 0
   }
 ]
