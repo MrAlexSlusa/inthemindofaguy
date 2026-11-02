@@ -72,7 +72,10 @@
     "threadId": "1a19b37368fb7d84",
     "messageId": "1a19b37368fb7d84",
     "draftPath": ".claude/blog-automation/drafts/2026-11-02-just-checking-is-never-one-minute.json",
-    "status": "pending",
-    "revisions": 0
+    "status": "published",
+    "revisions": 0,
+    "approvedReply": "da",
+    "publishedAt": "2026-11-02T17:41:17.202Z",
+    "url": "https://mralexslusa.github.io/inthemindofaguy/opinions/just-checking-is-never-one-minute/"
   }
 ]

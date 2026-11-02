@@ -48,6 +48,12 @@ export const home = {
   // deliberate: { date, title, meta, href }.
   latest: [
     {
+      date: '2 Nov 2026',
+      title: 'Just checking is never one minute',
+      meta: 'opinions · phone, attention',
+      href: '/opinions/just-checking-is-never-one-minute/'
+    },
+    {
       date: '1 Nov 2026',
       title: 'Studying is not learning',
       meta: 'opinions · studying, memory',
@@ -58,12 +64,6 @@ export const home = {
       title: 'The cost of starting on Monday',
       meta: 'opinions · habits, mondays',
       href: '/opinions/the-cost-of-starting-on-monday/'
-    },
-    {
-      date: '30 Oct 2026',
-      title: 'Saving at eighteen is not about the money',
-      meta: 'opinions · saving, habits',
-      href: '/opinions/saving-at-eighteen-is-not-about-the-money/'
     }
   ],
   // Set to { quote, attribution } to bring back the purple pinned card.
@@ -82,6 +82,31 @@ export const opinionsIndex = {
 //          inverted?, body: [paragraphs] }
 // Newest first. `inverted: true` puts the essay on the dark purple band.
 export const opinions = [
+  {
+    number: '05',
+    slug: 'just-checking-is-never-one-minute',
+    title: 'Just checking is never one minute.',
+    titleHtml: 'Just checking is never <span class="mark">one minute</span>.',
+    dek: 'A phone check takes two minutes on the screen. Getting back to what you were doing is the part nobody counts.',
+    date: 'nov 2026',
+    readTime: '5 min read',
+    eyebrow: '05 · nov 2026 · 5 min',
+    inverted: false,
+    body: [
+      '“The check takes one minute. Coming back takes the rest of the hour.”',
+      'Have you ever asked yourself how long “just checking” your phone actually takes? Not the time on the screen - the whole thing, from the moment you pick it up to the moment you are really back in what you were doing. Yesterday I wrote about studying with the book closed, and while I was trying it, the thing that kept breaking the session was not the book. It was the phone, face down, half a meter away. So the question is: <strong>why is a thing that takes one minute so expensive?</strong> Let’s start from the beginning.',
+      'Everybody knows the phone is distracting, that part is not news. What I want to look at is the sentence we use to make it fine: “I am just checking.” Just checking the messages, just checking if somebody answered, just checking the score. The word “just” is doing a lot of work there. It says the thing is small, so it costs nothing, so there is no decision to make. I have said it more times today than I would like to admit, and it is only morning.',
+      'Firstly, let’s talk about why the hand goes to the phone in the first place, because I don’t think it is weakness. In the 1950s the psychologist <strong>B. F. Skinner</strong> studied how animals respond to rewards, and he found that the schedule that produced the most stubborn behaviour was not a reward every time. It was a reward after an unpredictable number of tries - what he called a <strong>variable ratio</strong> schedule. You press, nothing. You press, nothing. You press, something. And because you never know which press is the one, you keep pressing. This is exactly how a slot machine works, and it is exactly how a phone works. Most checks give you nothing, some give you a message you actually wanted, and <u>the nothing is what keeps you coming back, because the next one might be the good one</u>.',
+      'That is why I call it a slot machine with homework on it. The same object holds the thing you are supposed to be doing and the thing designed to pull you away from it, and you carry both in the same pocket.',
+      'Secondly, the real cost, which is not on the screen. In 2009 Sophie Leroy, a researcher who studies how people work, published a paper with a very honest title: <strong>“Why is it so hard to do my work?”</strong>. Her idea is called <strong>attention residue</strong>. When you switch from one task to another, part of your attention stays behind on the first one, and the next task gets done by a smaller version of you. So when you put the phone down after “just checking”, you are not fully back. Part of you is still thinking about the message, the video, the thing you did not answer.',
+      'Now let’s put it a little bit in perspective, and I want to be clear that this is an example I built, not a measurement. Take a two-hour study session, 120 minutes. You check the phone every 15 minutes, which is 8 checks. Each check is 2 minutes on the screen. Then say it takes you 5 minutes to really get back to where you were (I picked 5 because it felt honest for me, nobody gave me that number).<br>Time on the phone: 8 × 2 = 16 minutes<br>Time getting back in: 8 × 5 = 40 minutes<br>Total: 56 minutes out of 120, so about <strong>47% of the session</strong><br>The phone’s screen time report would show you the 16. It would never show you the 40. <u>“Just checking” gets counted in minutes on the screen, but it gets paid in minutes off the work.</u> Five sessions like that in a week and you lost 280 minutes, more than four and a half hours, and you were “studying” the whole time.',
+      'Thirdly, and this one surprised me the most. In 2017, Adrian Ward and his colleagues at the University of Texas at Austin published a study called <strong>“Brain Drain”</strong>. Almost 800 people did tests that need full concentration, and they were asked to put their phone either on the desk face down, in their pocket or bag, or in another room. The phones were silent, nobody checked anything. And still, the people whose phone was in another room did best on the tests, and the ones with the phone on the desk did worst. Their conclusion is that a phone does not even need to ring to take something from you - <u>part of your mind is busy not checking it</u>.',
+      'So here is what I am going to do, because an article like this is worthless if it ends only in agreement. For the rest of the week, when I sit down to study, the phone goes in another room, not face down, not on silent, another room. And at the end of each session I write down one number: how many times I got up, or wanted to get up, to go and check it. Not to feel bad about it, but because I have never once counted, and I think the number will tell me more than any study.',
+      'For today, that will be all. My personal opinion? I think the idea is right and I can feel it in my own evenings. But I have to be fair about the evidence. Skinner worked with rats and pigeons, not with students and group chats, and the slot machine comparison is a comparison, not a proof. Later researchers who tried to repeat the “Brain Drain” experiment have not always found the same effect, so I would not build everything on it. And the phone is also where my notes are, where my friends are, and where half of what I read for this blog comes from - it is not the enemy, and pretending it is would be a bit dramatic. What I take from it is smaller: <strong>“just checking” is never just one minute, and the cost is in the coming back</strong>.',
+      'In the end, I hope you enjoyed this article and I will leave you with the line that started all of this. Peace!',
+      '“The check takes one minute. Coming back takes the rest of the hour.”'
+    ]
+  },
   {
     number: '04',
     slug: 'studying-is-not-learning',
@@ -260,7 +285,7 @@ export const about = {
   // 'writing' tracks the category and date of the most recent post — update
   // it whenever a new post is published.
   facts: [
-    ['writing', 'opinions · 1 Nov 2026'],
+    ['writing', 'opinions · 2 Nov 2026'],
     ['based', 'Book, Life, Thoughts'],
     ['day job', 'Student'],
     ['email', 'contact.alexander.slusharencu@gmail.com']
