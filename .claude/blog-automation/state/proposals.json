@@ -62,5 +62,17 @@
     "publishedAt": "2026-11-01T10:16:23.304Z",
     "url": "https://mralexslusa.github.io/inthemindofaguy/opinions/studying-is-not-learning/",
     "commit": "09797e2d2604e8f92c96651c2a4e8bab2fd053f3"
+  },
+  {
+    "id": "2026-11-02-just-checking-is-never-one-minute",
+    "date": "2026-11-02",
+    "slug": "just-checking-is-never-one-minute",
+    "title": "Just checking is never one minute.",
+    "section": "opinions",
+    "threadId": "1a19b37368fb7d84",
+    "messageId": "1a19b37368fb7d84",
+    "draftPath": ".claude/blog-automation/drafts/2026-11-02-just-checking-is-never-one-minute.json",
+    "status": "pending",
+    "revisions": 0
   }
 ]

@@ -19,9 +19,6 @@ with the draft.
    test is whether anything in his week changed. What he will measure.
    (Skipped 1 nov 2026: too close to the published "Everybody has done the
    maths." - needs a different angle before it is proposed.)
-3. **The phone is a slot machine with homework on it.** Variable reward, and
-   why "just checking" costs more than the minutes it takes. Lean on: the cost
-   of re-entering a task after an interruption.
 5. **Identity before outcome, applied to being a student.** "I am a person who
    studies" versus "I want good grades" — the Atomic Habits argument tested on
    school.
@@ -65,3 +62,4 @@ with the draft.
 - **Saving money at eighteen is not about the money.** 30 oct 2026 - published as "Saving at eighteen is not about the money." (thread 1a18bf7b77670544).
 - **The cost of "I will start on Monday".** 31 oct 2026 - proposed (thread 1a190e63fe7e1bde), published as "The cost of starting on Monday." if approved.
 - **Studying is not the same as learning.** 1 nov 2026 - proposed (thread 1a1960f3f10bbc35), published as "Studying is not learning." if approved.
+- **The phone is a slot machine with homework on it.** 2 nov 2026 - proposed (thread 1a19b37368fb7d84), published as "Just checking is never one minute." if approved.
