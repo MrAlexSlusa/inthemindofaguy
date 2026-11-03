@@ -19,9 +19,6 @@ with the draft.
    test is whether anything in his week changed. What he will measure.
    (Skipped 1 nov 2026: too close to the published "Everybody has done the
    maths." - needs a different angle before it is proposed.)
-5. **Identity before outcome, applied to being a student.** "I am a person who
-   studies" versus "I want good grades" — the Atomic Habits argument tested on
-   school.
 6. **Why discipline beats motivation, with the arithmetic.** Motivation is a
    mood with a decay rate. A system does not need to feel like anything.
 7. **Nobody tells you when to start.** The first irreversible small act, and
@@ -63,3 +60,4 @@ with the draft.
 - **The cost of "I will start on Monday".** 31 oct 2026 - proposed (thread 1a190e63fe7e1bde), published as "The cost of starting on Monday." if approved.
 - **Studying is not the same as learning.** 1 nov 2026 - proposed (thread 1a1960f3f10bbc35), published as "Studying is not learning." if approved.
 - **The phone is a slot machine with homework on it.** 2 nov 2026 - proposed (thread 1a19b37368fb7d84), published as "Just checking is never one minute." if approved.
+- **Identity before outcome, applied to being a student.** 3 nov 2026 - proposed (thread 1a1a05c97b2da68d), published as "I am a person who studies." if approved.

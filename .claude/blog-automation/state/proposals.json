@@ -78,5 +78,17 @@
     "publishedAt": "2026-11-02T17:41:17.202Z",
     "url": "https://mralexslusa.github.io/inthemindofaguy/opinions/just-checking-is-never-one-minute/",
     "commit": "1137f9f260c91ee4a25627a4f9a46795ca12e906"
+  },
+  {
+    "id": "2026-11-03-i-am-a-person-who-studies",
+    "date": "2026-11-03",
+    "slug": "i-am-a-person-who-studies",
+    "title": "I am a person who studies.",
+    "section": "opinions",
+    "threadId": "1a1a05c97b2da68d",
+    "messageId": "1a1a05c97b2da68d",
+    "draftPath": ".claude/blog-automation/drafts/2026-11-03-i-am-a-person-who-studies.json",
+    "status": "pending",
+    "revisions": 0
   }
 ]
