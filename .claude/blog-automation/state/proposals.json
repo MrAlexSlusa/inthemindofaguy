@@ -90,5 +90,17 @@
     "draftPath": ".claude/blog-automation/drafts/2026-11-03-i-am-a-person-who-studies.json",
     "status": "pending",
     "revisions": 0
+  },
+  {
+    "id": "2026-11-04-motivation-is-a-mood",
+    "date": "2026-11-04",
+    "slug": "motivation-is-a-mood",
+    "title": "Motivation is a mood.",
+    "section": "opinions",
+    "threadId": "1a1a581f11622e24",
+    "messageId": "1a1a581f11622e24",
+    "draftPath": ".claude/blog-automation/drafts/2026-11-04-motivation-is-a-mood.json",
+    "status": "pending",
+    "revisions": 0
   }
 ]
