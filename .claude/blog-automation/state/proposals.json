@@ -102,5 +102,17 @@
     "draftPath": ".claude/blog-automation/drafts/2026-11-04-motivation-is-a-mood.json",
     "status": "pending",
     "revisions": 0
+  },
+  {
+    "id": "2026-11-05-enough-is-a-number-you-pick",
+    "date": "2026-11-05",
+    "slug": "enough-is-a-number-you-pick",
+    "title": "Enough is a number you pick.",
+    "section": "opinions",
+    "threadId": "1a1aaa8f5b5c449b",
+    "messageId": "1a1aaa8f5b5c449b",
+    "draftPath": ".claude/blog-automation/drafts/2026-11-05-enough-is-a-number-you-pick.json",
+    "status": "pending",
+    "revisions": 0
   }
 ]

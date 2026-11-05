@@ -37,8 +37,6 @@ with the draft.
     a screen.
 16. **Luck gets edited out of every success story.** The Psychology of Money
     argument applied to the people he watches online.
-17. **"Enough" is a number you have to pick yourself.** Housel's line, taken
-    seriously, by someone who does not have much yet.
 18. **Risk when you have nothing to lose versus nothing to spare.** Why the
     same advice is correct for one person and reckless for another.
 19. **Sleep is the cheapest performance upgrade and the first thing cut.**
@@ -60,3 +58,4 @@ with the draft.
 - **The phone is a slot machine with homework on it.** 2 nov 2026 - proposed (thread 1a19b37368fb7d84), published as "Just checking is never one minute." if approved.
 - **Identity before outcome, applied to being a student.** 3 nov 2026 - proposed (thread 1a1a05c97b2da68d), published as "I am a person who studies." if approved.
 - **Why discipline beats motivation, with the arithmetic.** 4 nov 2026 - proposed (thread 1a1a581f11622e24), published as "Motivation is a mood." if approved.
+- **"Enough" is a number you have to pick yourself.** 5 nov 2026 - proposed (thread 1a1aaa8f5b5c449b), published as "Enough is a number you pick." if approved.
