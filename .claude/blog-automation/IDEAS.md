@@ -27,8 +27,6 @@ with the draft.
     highlights while your own draft is open.
 10. **Free time is the thing you are actually investing.** Hours as the asset
     nobody tracks on a balance sheet.
-11. **Reading slowly on purpose.** Pages per month versus books finished, and
-    which number he would rather have.
 12. **Taking notes you never open.** When writing it down is thinking and when
     it is theatre.
 14. **Why people quit in week three.** The point where the novelty is gone and
@@ -59,3 +57,4 @@ with the draft.
 - **Identity before outcome, applied to being a student.** 3 nov 2026 - proposed (thread 1a1a05c97b2da68d), published as "I am a person who studies." if approved.
 - **Why discipline beats motivation, with the arithmetic.** 4 nov 2026 - proposed (thread 1a1a581f11622e24), published as "Motivation is a mood." if approved.
 - **"Enough" is a number you have to pick yourself.** 5 nov 2026 - proposed (thread 1a1aaa8f5b5c449b), published as "Enough is a number you pick." if approved.
+- **Reading slowly on purpose.** 6 nov 2026 - proposed (thread 1a1afced53a5c77f), published as "Books finished is the wrong number." if approved.

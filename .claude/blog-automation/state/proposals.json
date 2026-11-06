@@ -114,5 +114,17 @@
     "draftPath": ".claude/blog-automation/drafts/2026-11-05-enough-is-a-number-you-pick.json",
     "status": "pending",
     "revisions": 0
+  },
+  {
+    "id": "2026-11-06-books-finished-is-the-wrong-number",
+    "date": "2026-11-06",
+    "slug": "books-finished-is-the-wrong-number",
+    "title": "Books finished is the wrong number.",
+    "section": "opinions",
+    "threadId": "1a1afced53a5c77f",
+    "messageId": "1a1afced53a5c77f",
+    "draftPath": ".claude/blog-automation/drafts/2026-11-06-books-finished-is-the-wrong-number.json",
+    "status": "pending",
+    "revisions": 0
   }
 ]
