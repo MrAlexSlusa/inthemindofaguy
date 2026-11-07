@@ -48,6 +48,12 @@ export const home = {
   // deliberate: { date, title, meta, href }.
   latest: [
     {
+      date: '4 Nov 2026',
+      title: 'Motivation is a mood',
+      meta: 'opinions · motivation, habits',
+      href: '/opinions/motivation-is-a-mood/'
+    },
+    {
       date: '3 Nov 2026',
       title: 'I am a person who studies',
       meta: 'opinions · identity, studying',
@@ -58,12 +64,6 @@ export const home = {
       title: 'Just checking is never one minute',
       meta: 'opinions · phone, attention',
       href: '/opinions/just-checking-is-never-one-minute/'
-    },
-    {
-      date: '1 Nov 2026',
-      title: 'Studying is not learning',
-      meta: 'opinions · studying, memory',
-      href: '/opinions/studying-is-not-learning/'
     }
   ],
   // Set to { quote, attribution } to bring back the purple pinned card.
@@ -82,6 +82,31 @@ export const opinionsIndex = {
 //          inverted?, body: [paragraphs] }
 // Newest first. `inverted: true` puts the essay on the dark purple band.
 export const opinions = [
+  {
+    "number": "07",
+    "slug": "motivation-is-a-mood",
+    "title": "Motivation is a mood.",
+    "titleHtml": "Motivation is <span class=\"mark\">a mood</span>.",
+    "dek": "In a simple model where motivation fades 10% a day, it carries you for 7 days out of 30. A system does not need to feel like anything.",
+    "date": "nov 2026",
+    "readTime": "5 min read",
+    "eyebrow": "07 · nov 2026 · 5 min",
+    "inverted": false,
+    "body": [
+      "“Motivation gets you to the first day. It has never once shown up on the eighth.”",
+      "Have you ever watched a video at midnight that made you want to change your whole life, and then woken up the next morning as the exact same person? I have, more times than I would like to count. The feeling was real, it was strong, and it was gone before breakfast. So the question is: <strong>why does the thing that starts everything almost never finish anything?</strong> Let’s start from the beginning.",
+      "The sentence I want to look at today is “I just need to get motivated.” I have said it about the gym, about studying, about this blog before it existed. It sounds like a plan, but it is really a waiting room. It means: I will do the thing once the feeling arrives. And if you read the article about Mondays here, you already know how much I trust plans that start with waiting.",
+      "Firstly, let’s split the two words, the way I like to do with a title. <strong>Motivation</strong> is a feeling. It arrives by itself, usually at the worst time (midnight, after a video, in the shower), and it leaves by itself, without asking you. <strong>Discipline</strong> is a bit of a heavy word, so I prefer to call it a <strong>system</strong>: a decision you already made, about when and where you do the thing, so that on the day itself there is nothing left to decide. <u>Motivation is a mood. A system does not need to feel like anything.</u> That is the whole difference, and I think it is bigger than it looks.",
+      "Secondly, let’s put numbers on it, and I want to be clear that this is an example I built, not a measurement. Nobody has measured how fast motivation fades, and it is surely different for everybody. Say on the day you decide, your motivation is at 100. Every day after that it loses 10% of what is left. And say you only show up while it is at 50 or more.<br>Day 1: 100, day 2: 90, day 3: 81, day 4: 72.9, day 5: 65.6, day 6: 59, day 7: 53.1<br>Day 8: 47.8, and you stop<br>That is <strong>7 days out of 30</strong>. Now take a boring system instead: the same time every day, with one rest day a week. In 30 days that is 4 rest days, so <strong>26 days out of 30</strong>. If I take the formula from the first article on this blog, 1.01<sup>7</sup> = 1.07 and 1.01<sup>26</sup> = 1.30. Neither is impressive after one month. But <u>one of them is still running on day 31, and the other one is waiting for the next video</u>.",
+      "Here is why day 31 matters so much. In 2010, Phillippa Lally and her colleagues at University College London published a study called <strong>“How are habits formed”</strong>. 96 volunteers each picked one new daily behaviour, like drinking a glass of water with lunch or going for a run before dinner, and every day they wrote down how automatic it felt. The median time until it felt automatic was <strong>66 days</strong>, and the range went from 18 to 254. Now put that next to my example. On day 66, the motivation in my little model is at 0.11. Almost nothing. <u>The habit becomes easy exactly when the feeling that started it is long gone</u>, which means the feeling was never the thing that could carry you there.",
+      "There was one more result in that study that I like a lot. Missing a single day did not really damage the process. The people who skipped once were not sent back to zero. A system can survive a bad day. Motivation cannot survive a boring week.",
+      "Thirdly, and this is the part that changed how I see the word “discipline”. In 2012, Wilhelm Hofmann, Roy Baumeister and two colleagues published a study where adults in Germany carried a phone that beeped at random moments during the day for a week, and each time they reported if they were feeling a desire and if they were resisting it. You would expect the people with the most self-control to be the ones who resist the most. It was not like that. The people who scored high on self-control reported <strong>fewer temptations in the first place</strong>. They were not fighting harder, they had arranged their lives so there was less to fight. So <u>discipline is not willpower in the moment, it is decisions made before the moment</u>, and that is just another name for a system.",
+      "So here is what I am going to do, because an article like this is worthless if it ends only in agreement. Today is a Wednesday, the middle of the week, not a fresh start of anything, which is exactly why it is a good day to set this up. I am writing on a piece of paper the time and the place for the thing I keep “waiting to feel like” doing. That is it. And the next time a burst of motivation shows up, I will not spend it doing more. I will spend it making the system easier for the days when I feel nothing - preparing the bag, clearing the desk, putting the book where I will see it.",
+      "For today, that will be all. My personal opinion? I think the argument is right, but I don’t fully like how it usually gets told. “Discipline beats motivation” can turn very fast into a voice that shames you for being tired, and some days rest really is the correct answer. My 10% a day is invented, and the real curve is surely messier, with days where the feeling comes back for no reason. And I have to admit that motivation is not useless - without one late night of wanting it, nobody would ever sit down and design a system in the first place. What I take from it is smaller: <strong>let motivation start the thing, but never let it be the thing that has to show up</strong>.",
+      "In the end, I hope you enjoyed this article and I will leave you with the line that started all of this. Peace!",
+      "“Motivation gets you to the first day. It has never once shown up on the eighth.”"
+    ]
+  },
   {
     "number": "06",
     "slug": "i-am-a-person-who-studies",
@@ -310,7 +335,7 @@ export const about = {
   // 'writing' tracks the category and date of the most recent post — update
   // it whenever a new post is published.
   facts: [
-    ['writing', 'opinions · 3 Nov 2026'],
+    ['writing', 'opinions · 4 Nov 2026'],
     ['based', 'Book, Life, Thoughts'],
     ['day job', 'Student'],
     ['email', 'contact.alexander.slusharencu@gmail.com']
