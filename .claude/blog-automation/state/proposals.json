@@ -126,5 +126,17 @@
     "draftPath": ".claude/blog-automation/drafts/2026-11-06-books-finished-is-the-wrong-number.json",
     "status": "pending",
     "revisions": 0
+  },
+  {
+    "id": "2026-11-07-free-time-is-not-free",
+    "date": "2026-11-07",
+    "slug": "free-time-is-not-free",
+    "title": "Free time is not free.",
+    "section": "opinions",
+    "threadId": "1a1b4f61e626b7ec",
+    "messageId": "1a1b4f61e626b7ec",
+    "draftPath": ".claude/blog-automation/drafts/2026-11-07-free-time-is-not-free.json",
+    "status": "pending",
+    "revisions": 0
   }
 ]
