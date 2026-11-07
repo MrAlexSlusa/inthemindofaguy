@@ -120,8 +120,12 @@
     "threadId": "1a1aaa8f5b5c449b",
     "messageId": "1a1aaa8f5b5c449b",
     "draftPath": ".claude/blog-automation/drafts/2026-11-05-enough-is-a-number-you-pick.json",
-    "status": "pending",
-    "revisions": 0
+    "status": "published",
+    "revisions": 0,
+    "approvedReply": "da",
+    "publishedAt": "2026-11-07T14:47:37.000Z",
+    "url": "https://mralexslusa.github.io/inthemindofaguy/opinions/enough-is-a-number-you-pick/",
+    "commit": "2cbcb87f9080f2f550ccb2f36b8acd456fc02577"
   },
   {
     "id": "2026-11-06-books-finished-is-the-wrong-number",
@@ -132,8 +136,12 @@
     "threadId": "1a1afced53a5c77f",
     "messageId": "1a1afced53a5c77f",
     "draftPath": ".claude/blog-automation/drafts/2026-11-06-books-finished-is-the-wrong-number.json",
-    "status": "pending",
-    "revisions": 0
+    "status": "published",
+    "revisions": 0,
+    "approvedReply": "da",
+    "publishedAt": "2026-11-07T14:47:37.000Z",
+    "url": "https://mralexslusa.github.io/inthemindofaguy/opinions/books-finished-is-the-wrong-number/",
+    "commit": "ad334663346079fe77220155b1750f6c0dce5c2a"
   },
   {
     "id": "2026-11-07-free-time-is-not-free",
@@ -144,7 +152,11 @@
     "threadId": "1a1b4f61e626b7ec",
     "messageId": "1a1b4f61e626b7ec",
     "draftPath": ".claude/blog-automation/drafts/2026-11-07-free-time-is-not-free.json",
-    "status": "pending",
-    "revisions": 0
+    "status": "published",
+    "revisions": 0,
+    "approvedReply": "approved in chat (no email reply)",
+    "publishedAt": "2026-11-07T14:47:37.000Z",
+    "url": "https://mralexslusa.github.io/inthemindofaguy/opinions/free-time-is-not-free/",
+    "commit": "87c744783883089e5d88e2e3863dce1b36a37796"
   }
 ]
