@@ -88,8 +88,12 @@
     "threadId": "1a1a05c97b2da68d",
     "messageId": "1a1a05c97b2da68d",
     "draftPath": ".claude/blog-automation/drafts/2026-11-03-i-am-a-person-who-studies.json",
-    "status": "pending",
-    "revisions": 0
+    "status": "published",
+    "revisions": 0,
+    "approvedReply": "da",
+    "publishedAt": "2026-11-07T08:37:01.793Z",
+    "url": "https://mralexslusa.github.io/inthemindofaguy/opinions/i-am-a-person-who-studies/",
+    "commit": "e0f8af1baba36711f678516a0c47caa27f673af0"
   },
   {
     "id": "2026-11-04-motivation-is-a-mood",
