@@ -48,6 +48,12 @@ export const home = {
   // deliberate: { date, title, meta, href }.
   latest: [
     {
+      date: '7 Nov 2026',
+      title: 'Free time is not free',
+      meta: 'opinions · time, students',
+      href: '/opinions/free-time-is-not-free/'
+    },
+    {
       date: '6 Nov 2026',
       title: 'Books finished is the wrong number',
       meta: 'opinions · reading, books',
@@ -58,12 +64,6 @@ export const home = {
       title: 'Enough is a number you pick',
       meta: 'opinions · money, enough',
       href: '/opinions/enough-is-a-number-you-pick/'
-    },
-    {
-      date: '4 Nov 2026',
-      title: 'Motivation is a mood',
-      meta: 'opinions · motivation, habits',
-      href: '/opinions/motivation-is-a-mood/'
     }
   ],
   // Set to { quote, attribution } to bring back the purple pinned card.
@@ -82,6 +82,31 @@ export const opinionsIndex = {
 //          inverted?, body: [paragraphs] }
 // Newest first. `inverted: true` puts the essay on the dark purple band.
 export const opinions = [
+  {
+    "number": "10",
+    "slug": "free-time-is-not-free",
+    "title": "Free time is not free.",
+    "titleHtml": "Free time is <span class=\"mark\">not free</span>.",
+    "dek": "A student week has 51 free hours in it, more than school takes. Money can wait in an account. An hour gets spent the moment it arrives.",
+    "date": "nov 2026",
+    "readTime": "6 min read",
+    "eyebrow": "10 · nov 2026 · 6 min",
+    "inverted": false,
+    "body": [
+      "“You can save money for later. An hour you can only spend.”",
+      "Have you ever asked yourself what you actually own the most of? Not money - at my age that question has a very short answer. I mean time. Today is a Saturday, the day of the week with the most of it, and I already caught myself spending the first hour of it on nothing I could name. So the question is: <strong>if free time is the one thing I have plenty of, why do I treat it as if it cost nothing?</strong> Let’s start from the beginning.",
+      "On this blog I have already written about money twice, about compound interest in the review of The Psychology of Money and about saving $100 a month at eighteen. Both times the hidden ingredient was the same - time. Buffett’s number only works because he started at 10, the $100 only works because it has 47 years in front of it. And it made me think that I was always looking at the money side of the sum, when the thing doing the real work is the side I never write down. Nobody I know keeps a list of their hours the way a company keeps a balance sheet.",
+      "Firstly, let’s split the phrase in two, the way I like to do. “Free” and “time”. The time part is honest. The “free” part is where the trick is. It says the hour costs nothing, because nobody sends you a bill for it. But every hour has a price, it is just not paid in money, it is paid in all the other things the same hour could have been. And there is one big difference from money that I think we forget: <u>money can wait in an account, an hour cannot wait anywhere</u>. You cannot put this Saturday aside and use it in March. Every hour gets spent the moment it arrives, the only decision is on what.",
+      "Secondly, let’s count how much of it there is, because I never had. I built my own week as a student, and these are my guesses, not a study. A week has 168 hours. Sleep 8 a night and 56 are gone. School and homework, about 8 hours on each of the 5 weekdays, take 40. Eating, washing, getting from one place to another, say 3 hours every day, another 21.<br>168 - 56 - 40 - 21 = <strong>51 free hours a week</strong><br>Read that again: in my own example there are more free hours in a week than school hours. Saturday alone, with no school, has 24 - 8 - 3 = 13 of them. I complain that I do not have time for things, and the count says I have 51 hours a week that nobody has claimed (I mean sure, nobody except me).",
+      "Now let’s put it a little bit in perspective with a real number. The American Time Use Survey, which the US Bureau of Labor Statistics runs every year, found that in 2024 people aged 15 and over spent on average <strong>2.6 hours a day watching TV</strong> - more than any other leisure activity. I am not American and it is an average across all ages, so it is not my number, but let’s run it anyway.<br>2.6 hours × 365 days = 949 hours a year<br>949 hours ÷ 16 waking hours a day = about 59 waking days<br>So almost two months a year, awake, in front of one screen. From 18 to 30 that is 12 × 949 = <strong>11.388 hours</strong> (yes, you read that right).",
+      "And here is where it connects back to money. Hours do something similar to compound interest, they are only slower to see. An hour a day spent on one skill does not feel like anything on day one, exactly like the first $100 in the account. But take half of that TV time, 1.3 hours a day, and give it to one thing - a language, an instrument, code.<br>1.3 hours × 365 days = about 475 hours a year<br>1.3 hours × 365 days × 5 years = more than 2.370 hours<br>I am not going to promise you what 2.370 hours of anything turns you into, because I do not know, and I do not trust anybody who says they know. But I do know it is not nothing. <u>The hours are the deposit, and the skill is the interest</u>.",
+      "Thirdly, and this is the counter-case I have to be fair to. Not every free hour is waiting to be invested. Some of it is rest, and rest is not a waste - a tired person does everything badly, studying included. Some of it is friends and family, and the Psychology of Money review closed on a quote that puts exactly those things above any number. The problem is not the hours spent on nothing important. The problem is <strong>the hours spent on nothing I chose</strong>. Watching a film with a friend on purpose and scrolling for an hour because the phone was close are the same 60 minutes on paper and two completely different things.",
+      "So here is what I am going to do, because an article like this is worthless if it ends only in agreement. Today, this Saturday, I will write down what each of my 13 free hours actually went on. Not to judge them, just to see them, because I have never once looked at my hours the way I look at the money in my account. Next Saturday I will do it again and compare the two lists. If anything changes, I expect it to be in the hours I picked, not in the hours that just happened to me.",
+      "For today, that will be all. My personal opinion? I believe the idea is right, but I do not fully like the language I used to say it. Calling free time an “investment” turns every evening into a spreadsheet, and I can already imagine a version of me who feels guilty for watching a match because the hour “did not return anything”. That version is not happier, he is just tired in a more organised way. And I have to admit that I picked the 2.6 hours of TV because it is an easy target - my own number is probably the phone, and I have not measured it yet. So the honest version is smaller: not every hour has to earn something, but every hour should at least be mine.",
+      "In the end, I hope you enjoyed this article and I will leave you with the line that started all of this. Peace!",
+      "“You can save money for later. An hour you can only spend.”"
+    ]
+  },
   {
     "number": "09",
     "slug": "books-finished-is-the-wrong-number",
@@ -384,7 +409,7 @@ export const about = {
   // 'writing' tracks the category and date of the most recent post — update
   // it whenever a new post is published.
   facts: [
-    ['writing', 'opinions · 6 Nov 2026'],
+    ['writing', 'opinions · 7 Nov 2026'],
     ['based', 'Book, Life, Thoughts'],
     ['day job', 'Student'],
     ['email', 'contact.alexander.slusharencu@gmail.com']
