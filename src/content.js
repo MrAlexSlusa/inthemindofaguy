@@ -48,6 +48,12 @@ export const home = {
   // deliberate: { date, title, meta, href }.
   latest: [
     {
+      date: '6 Nov 2026',
+      title: 'Books finished is the wrong number',
+      meta: 'opinions · reading, books',
+      href: '/opinions/books-finished-is-the-wrong-number/'
+    },
+    {
       date: '5 Nov 2026',
       title: 'Enough is a number you pick',
       meta: 'opinions · money, enough',
@@ -58,12 +64,6 @@ export const home = {
       title: 'Motivation is a mood',
       meta: 'opinions · motivation, habits',
       href: '/opinions/motivation-is-a-mood/'
-    },
-    {
-      date: '3 Nov 2026',
-      title: 'I am a person who studies',
-      meta: 'opinions · identity, studying',
-      href: '/opinions/i-am-a-person-who-studies/'
     }
   ],
   // Set to { quote, attribution } to bring back the purple pinned card.
@@ -82,6 +82,31 @@ export const opinionsIndex = {
 //          inverted?, body: [paragraphs] }
 // Newest first. `inverted: true` puts the essay on the dark purple band.
 export const opinions = [
+  {
+    "number": "09",
+    "slug": "books-finished-is-the-wrong-number",
+    "title": "Books finished is the wrong number.",
+    "titleHtml": "Books finished is the <span class=\"mark\">wrong number</span>.",
+    "dek": "Twenty minutes a day is about nineteen books a year. Read at half the speed, it is nine and a half - and the same 122 hours.",
+    "date": "nov 2026",
+    "readTime": "6 min read",
+    "eyebrow": "09 · nov 2026 · 6 min",
+    "inverted": false,
+    "body": [
+      "“Some books are to be tasted, others to be swallowed, and some few to be chewed and digested.” — Francis Bacon",
+      "Have you ever asked yourself which number you would rather have at the end of a year: how many books you finished, or how much of them you still remember? I finished the two books I reviewed here, “Atomic Habits” and “The Psychology of Money”, one day apart, on the 16th and the 17th of September. When I looked at those dates again this week, my first feeling was pride. My second feeling was a question I did not like so much: <strong>how much of the second one did I actually chew?</strong> Let’s start from the beginning.",
+      "The thing I want to look at is the way reading gets counted. You have probably seen it: reading challenges with a goal of 52 books a year, one every week, people posting the pile of everything they read in December, apps that promise to make you read three times faster. I am not against any of it, I like seeing a big pile too (I mean sure, who doesn’t). But all of it measures the same thing - the number of last pages you turned. And Francis Bacon, who wrote the line at the top in an essay called “Of Studies” more than 400 years ago, already knew that books are not all the same kind of meal.",
+      "Firstly, let’s split the phrase “books finished” in two, because I think the problem is in the second word. “Books” is fine, a book is a book. But “finished” only tells you where your eyes stopped, not what stayed. Woody Allen has a joke about this that I love: “I took a speed-reading course and read War and Peace in twenty minutes. It involves Russia.” He finished it. Technically, he can put it on the pile. <u>A finished book and a read book are not the same thing, and the count cannot see the difference.</u> In my article about studying, I wrote that when you read a page for the third time it feels familiar, and familiar feels like known. Reading fast for the count is the same trap, just with a bigger number at the end.",
+      "Secondly, let’s do the arithmetic, because the number is less impressive than it sounds either way. In 2019 the psychologist <strong>Marc Brysbaert</strong> looked at 190 studies with almost 18.000 people and found that adults read non-fiction in English silently at about <strong>238 words per minute</strong> (and fiction at about 260). Let’s say you read 20 minutes every day, a page has 300 words and a book has 300 pages. These last two are my assumptions, books are very different.<br>Words per day: 20 × 238 = 4.760<br>Words per year: 4.760 × 365 = 1.737.400<br>Pages per year: 1.737.400 ÷ 300 = about 5.791<br>Books per year: 5.791 ÷ 300 = about 19",
+      "Nineteen books from 20 minutes a day, which is really nice. Now let’s say you read the way I want to read a book like “The Psychology of Money”: you stop, you go back a page, you write one sentence after each chapter. Say that cuts your speed in half, to 119 words per minute. Then the same 20 minutes give you about <strong>9 and a half books</strong> a year instead of 19. On the pile, it looks like you lost half. But here is the thing nobody puts in the post: both readers spent exactly the same time, 7.300 minutes, about 122 hours. <u>The slow reader did not read less, they just counted less.</u> The only question is which of the two remembers more in December.",
+      "And can you just get fast and keep everything? I wanted that to be true. In 2016, Keith Rayner and four other researchers published a long review called <strong>“So Much to Read, So Little Time”</strong>, about what we know of how reading works and whether speed reading helps. Their answer is not the one the apps want: there is a <strong>trade-off between speed and accuracy</strong>. You can go faster, but you understand less, because the limit is not how fast your eyes move, it is how fast you understand the words. Just for the arithmetic: a 300-page book is about 90.000 words, so at 238 words a minute it takes a bit more than six hours. At 1.000 words a minute it would take 90 minutes, and you would probably know that it involves Russia.",
+      "Thirdly, I have to argue against myself a little, because slow is not always the right answer either. Bacon did not say every book should be chewed. He said some should only be tasted, some swallowed, and only “some few” chewed and digested. Reading a lot has its own value: you find out what you like, you get better at reading in general, and you meet the one book that deserves the slow read only because you read the ones that did not. If I read everything as slowly as I want to read Housel, I would probably never find the next book worth reading slowly.",
+      "So this is what I am going to try, because I do not want this to stay only an idea. I will stop counting books and count two other things every month: the pages I read, and the sentences I wrote down after each chapter. Pages tell me if I am reading at all. Sentences tell me if anything stayed. And somewhere in the first chapter of a new book, I will decide if it is one to taste, to swallow or to chew - and read it at that speed, without feeling guilty about any of the three.",
+      "For today, that will be all. My personal opinion? I really believe that the books that changed something for me are the ones I read slowly. But I have to be honest: “I read slowly on purpose” is also a very comfortable thing to say when you simply did not read much. Slow can be an excuse that sounds like a philosophy. And the count is not useless - a goal of one book a month is what makes some people open a book at all, and that is worth more than a perfect method nobody uses. Also, as a student, I do not always get to choose: sometimes there are 60 pages for tomorrow, and you swallow them. What I take from it is smaller: <strong>the number of books is a fine way to start, but a bad way to judge what you read</strong>.",
+      "In the end, I hope you enjoyed this article and I will leave you with the line that started all of this. Peace!",
+      "“Some books are to be tasted, others to be swallowed, and some few to be chewed and digested.” — Francis Bacon"
+    ]
+  },
   {
     "number": "08",
     "slug": "enough-is-a-number-you-pick",
@@ -359,7 +384,7 @@ export const about = {
   // 'writing' tracks the category and date of the most recent post — update
   // it whenever a new post is published.
   facts: [
-    ['writing', 'opinions · 5 Nov 2026'],
+    ['writing', 'opinions · 6 Nov 2026'],
     ['based', 'Book, Life, Thoughts'],
     ['day job', 'Student'],
     ['email', 'contact.alexander.slusharencu@gmail.com']
