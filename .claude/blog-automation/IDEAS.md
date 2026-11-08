@@ -21,8 +21,8 @@ with the draft.
    maths." - needs a different angle before it is proposed.)
 7. **Nobody tells you when to start.** The first irreversible small act, and
    why it never feels like a beginning.
-8. **The gym is a psychology experiment you pay for.** What showing up changes
-   before the body does.
+   (Skipped 8 nov 2026: too close to the published "The cost of starting on
+   Monday." - needs a different angle before it is proposed.)
 9. **Comparison is a tax on attention.** Scrolling through other people's
     highlights while your own draft is open.
 12. **Taking notes you never open.** When writing it down is thinking and when
@@ -57,3 +57,4 @@ with the draft.
 - **"Enough" is a number you have to pick yourself.** 5 nov 2026 - proposed (thread 1a1aaa8f5b5c449b), published as "Enough is a number you pick." if approved.
 - **Reading slowly on purpose.** 6 nov 2026 - proposed (thread 1a1afced53a5c77f), published as "Books finished is the wrong number." if approved.
 - **Free time is the thing you are actually investing.** 7 nov 2026 - proposed (thread 1a1b4f61e626b7ec), published as "Free time is not free." if approved.
+- **The gym is a psychology experiment you pay for.** 8 nov 2026 - proposed (thread 1a1ba1bf31f2d170), published as "The membership is a bet on yourself." if approved.

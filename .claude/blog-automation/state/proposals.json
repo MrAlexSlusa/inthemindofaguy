@@ -158,5 +158,17 @@
     "publishedAt": "2026-11-07T14:47:37.000Z",
     "url": "https://mralexslusa.github.io/inthemindofaguy/opinions/free-time-is-not-free/",
     "commit": "87c744783883089e5d88e2e3863dce1b36a37796"
+  },
+  {
+    "id": "2026-11-08-the-membership-is-a-bet-on-yourself",
+    "date": "2026-11-08",
+    "slug": "the-membership-is-a-bet-on-yourself",
+    "title": "The membership is a bet on yourself.",
+    "section": "opinions",
+    "threadId": "1a1ba1bf31f2d170",
+    "messageId": "1a1ba1bf31f2d170",
+    "draftPath": ".claude/blog-automation/drafts/2026-11-08-the-membership-is-a-bet-on-yourself.json",
+    "status": "pending",
+    "revisions": 0
   }
 ]
