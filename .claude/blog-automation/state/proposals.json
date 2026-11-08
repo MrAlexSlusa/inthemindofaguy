@@ -168,7 +168,11 @@
     "threadId": "1a1ba1bf31f2d170",
     "messageId": "1a1ba1bf31f2d170",
     "draftPath": ".claude/blog-automation/drafts/2026-11-08-the-membership-is-a-bet-on-yourself.json",
-    "status": "pending",
-    "revisions": 0
+    "status": "published",
+    "revisions": 0,
+    "approvedReply": "da",
+    "publishedAt": "2026-11-08T18:19:06.000Z",
+    "url": "https://mralexslusa.github.io/inthemindofaguy/opinions/the-membership-is-a-bet-on-yourself/",
+    "commit": "5f6d2833bcff6e408579b41a3bbe15f065fd17d3"
   }
 ]
