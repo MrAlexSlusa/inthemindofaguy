@@ -23,8 +23,6 @@ with the draft.
    why it never feels like a beginning.
    (Skipped 8 nov 2026: too close to the published "The cost of starting on
    Monday." - needs a different angle before it is proposed.)
-12. **Taking notes you never open.** When writing it down is thinking and when
-    it is theatre.
 14. **Why people quit in week three.** The point where the novelty is gone and
     the result has not arrived yet.
 15. **Boredom is a skill.** What goes missing when every queue is filled with
@@ -57,3 +55,4 @@ with the draft.
 - **Free time is the thing you are actually investing.** 7 nov 2026 - proposed (thread 1a1b4f61e626b7ec), published as "Free time is not free." if approved.
 - **The gym is a psychology experiment you pay for.** 8 nov 2026 - proposed (thread 1a1ba1bf31f2d170), published as "The membership is a bet on yourself." if approved.
 - **Comparison is a tax on attention.** 9 nov 2026 - proposed (thread 1a1bf42129eb4d4a), published as "Comparison is a tax on attention." if approved.
+- **Taking notes you never open.** 10 nov 2026 - proposed (thread 1a1c4691283c27f9), published as "A note is not a recording." if approved.

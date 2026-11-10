@@ -186,5 +186,17 @@
     "draftPath": ".claude/blog-automation/drafts/2026-11-09-comparison-is-a-tax-on-attention.json",
     "status": "pending",
     "revisions": 0
+  },
+  {
+    "id": "2026-11-10-a-note-is-not-a-recording",
+    "date": "2026-11-10",
+    "slug": "a-note-is-not-a-recording",
+    "title": "A note is not a recording.",
+    "section": "opinions",
+    "threadId": "1a1c4691283c27f9",
+    "messageId": "1a1c4691283c27f9",
+    "draftPath": ".claude/blog-automation/drafts/2026-11-10-a-note-is-not-a-recording.json",
+    "status": "pending",
+    "revisions": 0
   }
 ]
