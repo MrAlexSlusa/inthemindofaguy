@@ -198,5 +198,17 @@
     "draftPath": ".claude/blog-automation/drafts/2026-11-10-a-note-is-not-a-recording.json",
     "status": "pending",
     "revisions": 0
+  },
+  {
+    "id": "2026-11-11-boredom-is-a-skill",
+    "date": "2026-11-11",
+    "slug": "boredom-is-a-skill",
+    "title": "Boredom is a skill.",
+    "section": "opinions",
+    "threadId": "1a1c98ebe3f7e211",
+    "messageId": "1a1c98ebe3f7e211",
+    "draftPath": ".claude/blog-automation/drafts/2026-11-11-boredom-is-a-skill.json",
+    "status": "pending",
+    "revisions": 0
   }
 ]
