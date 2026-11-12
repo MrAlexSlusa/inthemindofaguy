@@ -214,5 +214,17 @@
     "draftPath": ".claude/blog-automation/drafts/2026-11-11-boredom-is-a-skill.json",
     "status": "pending",
     "revisions": 0
+  },
+  {
+    "id": "2026-11-12-luck-gets-edited-out",
+    "date": "2026-11-12",
+    "slug": "luck-gets-edited-out",
+    "title": "Luck gets edited out.",
+    "section": "opinions",
+    "threadId": "1a1ceb57c741a2e0",
+    "messageId": "1a1ceb57c741a2e0",
+    "draftPath": ".claude/blog-automation/drafts/2026-11-12-luck-gets-edited-out.json",
+    "status": "pending",
+    "revisions": 0
   }
 ]

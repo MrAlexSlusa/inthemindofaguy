@@ -27,8 +27,6 @@ with the draft.
     the result has not arrived yet.
     (Skipped 11 nov 2026: too close to the published "Motivation is a mood."
     (Lally's 66 days, fading motivation) - needs a different angle first.)
-16. **Luck gets edited out of every success story.** The Psychology of Money
-    argument applied to the people he watches online.
 18. **Risk when you have nothing to lose versus nothing to spare.** Why the
     same advice is correct for one person and reckless for another.
 19. **Sleep is the cheapest performance upgrade and the first thing cut.**
@@ -57,3 +55,4 @@ with the draft.
 - **Comparison is a tax on attention.** 9 nov 2026 - proposed (thread 1a1bf42129eb4d4a), published as "Comparison is a tax on attention." if approved.
 - **Taking notes you never open.** 10 nov 2026 - proposed (thread 1a1c4691283c27f9), published as "A note is not a recording." if approved.
 - **Boredom is a skill.** 11 nov 2026 - proposed (thread 1a1c98ebe3f7e211), published as "Boredom is a skill." if approved.
+- **Luck gets edited out of every success story.** 12 nov 2026 - proposed (thread 1a1ceb57c741a2e0), published as "Luck gets edited out." if approved.
