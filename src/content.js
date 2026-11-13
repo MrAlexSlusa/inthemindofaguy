@@ -48,6 +48,12 @@ export const home = {
   // deliberate: { date, title, meta, href }.
   latest: [
     {
+      date: '10 Nov 2026',
+      title: 'A note is not a recording',
+      meta: 'opinions · notes, studying',
+      href: '/opinions/a-note-is-not-a-recording/'
+    },
+    {
       date: '9 Nov 2026',
       title: 'Comparison is a tax on attention',
       meta: 'opinions · comparison, attention',
@@ -58,12 +64,6 @@ export const home = {
       title: 'The membership is a bet on yourself',
       meta: 'opinions · gym, money',
       href: '/opinions/the-membership-is-a-bet-on-yourself/'
-    },
-    {
-      date: '7 Nov 2026',
-      title: 'Free time is not free',
-      meta: 'opinions · time, students',
-      href: '/opinions/free-time-is-not-free/'
     }
   ],
   // Set to { quote, attribution } to bring back the purple pinned card.
@@ -82,6 +82,31 @@ export const opinionsIndex = {
 //          inverted?, body: [paragraphs] }
 // Newest first. `inverted: true` puts the essay on the dark purple band.
 export const opinions = [
+  {
+    "number": "13",
+    "slug": "a-note-is-not-a-recording",
+    "title": "A note is not a recording.",
+    "titleHtml": "A note is not <span class=\"mark\">a recording</span>.",
+    "dek": "In one study, 14.6% of laptop notes were copied word for word from the talk, against 8.8% by hand. The notes that help are the ones where you had to choose.",
+    "date": "nov 2026",
+    "readTime": "6 min read",
+    "eyebrow": "13 · nov 2026 · 6 min",
+    "inverted": false,
+    "body": [
+      "“If you only copy it, you did not write it down. You just moved it.”",
+      "Have you ever asked yourself how many of the notes you wrote this year you have actually opened again? Today is Tuesday, the 10th of November, and if you are a student like me, somewhere close to you there is a notebook from September. Open it at a random page and try to remember writing it. The handwriting is yours, the date is yours, and very often the page feels like it was written by somebody else. So the question is: <strong>if you do not remember writing it and you never came back to read it, what was the writing for?</strong> Let’s start from the beginning.",
+      "The thing I want to look at is note-taking, and I met it the way everybody does - in school, from the first day. Everybody tells you to take notes, and almost nobody tells you why. A note can only help you in two ways. Either the writing itself makes you think, so something stays in your head even if you never open the page again. Or the page keeps what your head did not, and it helps you later, when you open it. The writing or the keeping. A note that does neither of the two is not studying, it only looks like studying.",
+      "Firstly, let’s split the phrase “taking notes” in two, the way I like to do, because I think the problem is in the first word. “Taking” sounds like the information is already there and you only pick it up, the way you take a photo. But a photo does not decide anything, it keeps everything in front of it. A useful note is the opposite: from a full hour of somebody talking, you choose the five things that matter and you say them in your own words. <u>A recording keeps everything and decides nothing. A note is a decision about what matters.</u> Write down every sentence and you are making a recording - just a slower one than your phone.",
+      "Secondly, let’s look at a study that measured exactly this. In 2014, two psychologists, <strong>Pam Mueller</strong> from Princeton and <strong>Daniel Oppenheimer</strong> from UCLA, published a paper with a very confident title: “The Pen Is Mightier Than the Keyboard”. Students watched TED talks and took notes, some on a laptop and some by hand, and then answered questions about them. The laptop students wrote more words. But the researchers also checked how much of the notes was copied word for word from the talk, in pieces of three words.<br>Laptop notes copied from the talk: <strong>14.6%</strong><br>Handwritten notes copied from the talk: <strong>8.8%</strong><br>The difference is 5.8 points, and 5.8 out of 8.8 means the laptop notes had about <strong>66% more</strong> copying in them.",
+      "And the results followed the copying. On the factual questions (what was said, which number, which name), both groups did about the same. On the conceptual questions, the ones where you have to understand an idea and use it, the students who wrote by hand did better. The explanation of the authors is simple: you cannot write by hand as fast as somebody talks, so you are forced to choose and to put things in your own words. <u>The slowness of the pen was doing the thinking.</u> On a laptop you can type almost as fast as the speaker, so you never have to decide anything, and the notes go from the ears to the fingers without stopping in the head.",
+      "Let’s put it a little bit in perspective with my own semester. These numbers are my assumptions, not a measurement: 2 pages of notes per lecture, 4 lectures a day, 5 days a week, 14 weeks.<br>2 × 4 × 5 × 14 = <strong>560 pages</strong> in one semester<br>That is more than a whole book, written by me, in one semester. Now ask the two questions from the beginning about each of those pages. Did the writing make me think? If it was copied, no. Will I open it again? If I am honest, most of them, no. <u>A page that was copied and never opened did neither of the two jobs</u> - it was theatre. It looked like studying to me and to anybody who saw my full notebook, and that is why it is so comfortable.",
+      "Thirdly, and this is the counter-case I have to be fair to. The pen is not magic, and the study is not as solid as its title. In 2019, Kayla Morehead, John Dunlosky and Katherine Rawson repeated the experiments and did not find the clear advantage for handwriting. In 2021, a replication by Heather Urry and her colleagues again found that laptop notes had more words and more copying, but the difference in the test results did not hold up in a reliable way. So I do not think the lesson is “throw away your laptop”. I think the lesson is in the copying, not in the tool. You can copy with a pen too, and you can think on a keyboard if you force yourself to choose. And on the side of keeping, a laptop is honestly better - you can search 560 pages in a second, which no notebook can do.",
+      "In my article about studying, I wrote about closing the book and writing down everything you remember on an empty page. I realise now that this was also a note - the most useful one I have, because nothing was copied in it and I open it again a week later. So for the rest of November I am going to try two small rules. During a lecture, no full sentences copied, except definitions and formulas, where the exact words matter. And every Sunday, I open the notes from that week once, and I count how many pages I actually came back to. If the number is small, at least I will know which part of the notebook was for the show.",
+      "For today, that will be all. My personal opinion? I really believe that most of the notes I wrote in my life were copied and never opened, and that is not a nice thing to say about yourself. But I have to be honest about two things. The evidence is weaker than the headlines made it, and one famous study with mixed replications is not a law. And a note you never open is not always wasted - if the writing made you choose and think, it already did its job the day you wrote it, and the page can stay closed forever. Also, some subjects really need the exact words, and there copying is not theatre, it is the point. What I take from it is smaller: <strong>before you write something down, ask if you are deciding or only recording</strong>.",
+      "In the end, I hope you enjoyed this article and I will leave you with the line that started all of this. Peace!",
+      "“If you only copy it, you did not write it down. You just moved it.”"
+    ]
+  },
   {
     "number": "12",
     "slug": "comparison-is-a-tax-on-attention",
@@ -458,7 +483,7 @@ export const about = {
   // 'writing' tracks the category and date of the most recent post — update
   // it whenever a new post is published.
   facts: [
-    ['writing', 'opinions · 9 Nov 2026'],
+    ['writing', 'opinions · 10 Nov 2026'],
     ['based', 'Book, Life, Thoughts'],
     ['day job', 'Student'],
     ['email', 'contact.alexander.slusharencu@gmail.com']
