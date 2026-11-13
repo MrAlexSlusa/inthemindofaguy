@@ -230,5 +230,17 @@
     "draftPath": ".claude/blog-automation/drafts/2026-11-12-luck-gets-edited-out.json",
     "status": "pending",
     "revisions": 0
+  },
+  {
+    "id": "2026-11-13-nothing-to-lose-is-not-nothing-to-spare",
+    "date": "2026-11-13",
+    "slug": "nothing-to-lose-is-not-nothing-to-spare",
+    "title": "Nothing to lose is not nothing to spare.",
+    "section": "opinions",
+    "threadId": "1a1d3db8721de900",
+    "messageId": "1a1d3db8721de900",
+    "draftPath": ".claude/blog-automation/drafts/2026-11-13-nothing-to-lose-is-not-nothing-to-spare.json",
+    "status": "pending",
+    "revisions": 0
   }
 ]
