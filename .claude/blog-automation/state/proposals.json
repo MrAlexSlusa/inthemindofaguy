@@ -242,5 +242,17 @@
     "draftPath": ".claude/blog-automation/drafts/2026-11-13-nothing-to-lose-is-not-nothing-to-spare.json",
     "status": "pending",
     "revisions": 0
+  },
+  {
+    "id": "2026-11-14-sleep-is-the-first-thing-i-cut",
+    "date": "2026-11-14",
+    "slug": "sleep-is-the-first-thing-i-cut",
+    "title": "Sleep is the first thing I cut.",
+    "section": "opinions",
+    "threadId": "1a1d902547666d54",
+    "messageId": "1a1d902547666d54",
+    "draftPath": ".claude/blog-automation/drafts/2026-11-14-sleep-is-the-first-thing-i-cut.json",
+    "status": "pending",
+    "revisions": 0
   }
 ]

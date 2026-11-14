@@ -27,7 +27,6 @@ with the draft.
     the result has not arrived yet.
     (Skipped 11 nov 2026: too close to the published "Motivation is a mood."
     (Lally's 66 days, fading motivation) - needs a different angle first.)
-19. **Sleep is the cheapest performance upgrade and the first thing cut.**
 20. **One thing at a time, badly.** Against doing five projects at 20%.
 21. **Advice is autobiography.** The question "what did it cost you?" as a
     filter on everything he is told.
@@ -55,3 +54,4 @@ with the draft.
 - **Boredom is a skill.** 11 nov 2026 - proposed (thread 1a1c98ebe3f7e211), published as "Boredom is a skill." if approved.
 - **Luck gets edited out of every success story.** 12 nov 2026 - proposed (thread 1a1ceb57c741a2e0), published as "Luck gets edited out." if approved.
 - **Risk when you have nothing to lose versus nothing to spare.** 13 nov 2026 - proposed (thread 1a1d3db8721de900), published as "Nothing to lose is not nothing to spare." if approved.
+- **Sleep is the cheapest performance upgrade and the first thing cut.** 14 nov 2026 - proposed (thread 1a1d902547666d54), published as "Sleep is the first thing I cut." if approved.
