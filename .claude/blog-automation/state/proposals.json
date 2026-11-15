@@ -216,8 +216,12 @@
     "threadId": "1a1c98ebe3f7e211",
     "messageId": "1a1c98ebe3f7e211",
     "draftPath": ".claude/blog-automation/drafts/2026-11-11-boredom-is-a-skill.json",
-    "status": "pending",
-    "revisions": 0
+    "status": "published",
+    "revisions": 0,
+    "approvedReply": "da",
+    "publishedAt": "2026-11-15T08:59:12.741Z",
+    "url": "https://mralexslusa.github.io/inthemindofaguy/opinions/boredom-is-a-skill/",
+    "commit": "f594a1a5f1902c0ecebdc6c0f06f024383d7cf0b"
   },
   {
     "id": "2026-11-12-luck-gets-edited-out",
