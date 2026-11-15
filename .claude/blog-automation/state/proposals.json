@@ -254,5 +254,17 @@
     "draftPath": ".claude/blog-automation/drafts/2026-11-14-sleep-is-the-first-thing-i-cut.json",
     "status": "pending",
     "revisions": 0
+  },
+  {
+    "id": "2026-11-15-one-thing-at-a-time-badly",
+    "date": "2026-11-15",
+    "slug": "one-thing-at-a-time-badly",
+    "title": "One thing at a time, badly.",
+    "section": "opinions",
+    "threadId": "1a1de278457900c3",
+    "messageId": "1a1de278457900c3",
+    "draftPath": ".claude/blog-automation/drafts/2026-11-15-one-thing-at-a-time-badly.json",
+    "status": "pending",
+    "revisions": 0
   }
 ]
