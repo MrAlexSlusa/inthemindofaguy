@@ -48,6 +48,12 @@ export const home = {
   // deliberate: { date, title, meta, href }.
   latest: [
     {
+      date: '12 Nov 2026',
+      title: 'Luck gets edited out',
+      meta: 'opinions · luck, success',
+      href: '/opinions/luck-gets-edited-out/'
+    },
+    {
       date: '11 Nov 2026',
       title: 'Boredom is a skill',
       meta: 'opinions · boredom, attention',
@@ -58,12 +64,6 @@ export const home = {
       title: 'A note is not a recording',
       meta: 'opinions · notes, studying',
       href: '/opinions/a-note-is-not-a-recording/'
-    },
-    {
-      date: '9 Nov 2026',
-      title: 'Comparison is a tax on attention',
-      meta: 'opinions · comparison, attention',
-      href: '/opinions/comparison-is-a-tax-on-attention/'
     }
   ],
   // Set to { quote, attribution } to bring back the purple pinned card.
@@ -82,6 +82,30 @@ export const opinionsIndex = {
 //          inverted?, body: [paragraphs] }
 // Newest first. `inverted: true` puts the essay on the dark purple band.
 export const opinions = [
+  {
+    "number": "15",
+    "slug": "luck-gets-edited-out",
+    "title": "Luck gets edited out.",
+    "titleHtml": "Luck gets <span class=\"mark\">edited out</span>.",
+    "dek": "Put 1.024 people in a hall and flip coins: after 10 rounds, one of them has called 10 out of 10. Somebody always wins, and the winner always has a story.",
+    "date": "nov 2026",
+    "readTime": "6 min read",
+    "eyebrow": "15 · nov 2026 · 6 min",
+    "inverted": false,
+    "body": [
+      "“Every success story is told by the person who won the coin toss.”",
+      "Have you ever asked yourself what gets cut from a success story before it reaches you? Today is Thursday, the 12th of November, and I have spent more evenings than I would like to admit watching videos of people not much older than me explaining how they made it. The morning routine, the books, the hours, the one decision that changed everything, all of it in twelve minutes. And one word almost never comes up, not once in the whole video: <strong>luck</strong>. So the question is: <strong>if luck is part of every result, why is it missing from almost every story about one?</strong> Let’s start from the beginning.",
+      "I met this idea in a place I already wrote about. In September I reviewed “The Psychology of Money”, and there is one chapter I did not mention at all, because at the time it felt like the least practical one: <strong>“Luck &amp; Risk”</strong>. Morgan Housel tells the story of Bill Gates. In 1968, Lakeside School in Seattle got a teletype terminal connected to a computer, paid for by the school’s Mothers’ Club, at a time when almost no school had anything like it. Gates was a student there, and he has said himself that he can trace Microsoft back to his first days at that school. But Housel also tells the other half. Gates’s best friend, <strong>Kent Evans</strong>, worked on the same computer projects with him, and he died in 1972, at 17, in a mountaineering accident. One of them is in every book about success. The other is in almost none. <u>Luck and risk are the same thing, looked at from two sides.</u>",
+      "Firstly, let’s split the idea in two, the way I like to do. “Success” and “story”. Success is the thing that happened. The story is what somebody builds afterwards, and a story needs a reason. “I worked every night” is a reason. “I was lucky” does not sound like a reason, it sounds like giving the credit away. So luck does not get cut because people lie, it gets cut because it does not fit inside a story. And there is a second filter, before the first one. During the Second World War the statistician <strong>Abraham Wald</strong>, working in the Statistical Research Group at Columbia University, looked at the problem of where to put more armour on planes. The obvious answer is where the returning planes had holes. His point was the opposite: the planes hit in the other places were the ones that never came back to be counted. Today this is called <strong>survivorship bias</strong>. <u>The people who did everything right and still failed do not make videos about it.</u>",
+      "Secondly, let’s do the arithmetic, because I think a coin explains this better than any study. This is an example I built, not a measurement. Put 1.024 people in a hall and give each of them a coin. Everybody calls heads or tails and flips. If you are wrong, you sit down. Every round, about half the hall sits down.<br>1.024 → 512 → 256 → 128 → 64 → 32 → 16 → 8 → 4 → 2 → 1<br>After 10 rounds, one person is left standing who called <strong>10 out of 10</strong>. And 2<sup>10</sup> = 1.024, so this is not a miracle, it is a certainty: somebody <strong>has</strong> to be left standing. Now imagine we interview that person. They will tell us how they hold the coin, how they move the wrist, what they had for breakfast. Every word can be true, and none of it was the reason. <u>When enough people try, somebody will win, and the winner will always have a story.</u>",
+      "And you do not even need a tournament. Say the same 1.024 people each try, on their own, to throw 10 heads in a row. For one person the chance is 1 in 1.024, almost nothing. But for the group:<br>1 − (1.023 ÷ 1.024)<sup>1024</sup> = about <strong>63%</strong><br>So it is more likely than not that somebody in that hall does it, with no skill at all (yes, you read that right, no skill). Online, the people trying the same thing are not 1.024, and I only ever see the ones left standing. In the article about comparison I counted that you see about 43 highlights a day. This is the other half of the same problem: <u>the highlight is not only somebody’s best day, it is often the best person out of thousands who tried.</u>",
+      "Thirdly, and this is the counter-case I have to be fair to. None of this means work does not matter. The coin is an extreme example because the skill in it is zero, and real life is never zero. Gates did not only have a terminal, he spent an enormous amount of time on it, and that terminal was there for the whole school, not only for him. Luck gave him the room, the work is what he did inside it. There is also a danger on the other side: if I explain every failure of mine with bad luck, I will never learn anything from it. Housel says it better than I can: <strong>“Be careful who you praise and admire. Be careful who you look down upon and wish to avoid becoming.”</strong> <u>Luck explains a part of the result, never the whole of it.</u>",
+      "So here is what I am going to do, because an article like this is worthless if it ends only in agreement. Every time I watch a success story this month, I will write down one question next to it: <strong>“What had to go right that was not in your control?”</strong> And I will count how many of the videos answer it without being asked. I will ask myself the same question too, because this blog only exists because I have a laptop, free evenings and a second language good enough to write in, and I did not earn any of those by myself.",
+      "For today, that will be all. My personal opinion? I think the idea is right, but I have to be fair about it. My coin example is made up, and real success is not flipping coins, so it exaggerates the luck on purpose. And the idea has an uncomfortable side: nobody can measure how much of a result was luck, not Housel, not me, not the person in the video. Which means “it was just luck” can become a very comfortable excuse not to try, and a very unfair thing to say about somebody who really did work every night. What I take from it is smaller: <strong>admire the work, but do not copy the story as if it were a recipe</strong>.",
+      "In the end, I hope you enjoyed this article and I will leave you with the line that started all of this. Peace!",
+      "“Every success story is told by the person who won the coin toss.”"
+    ]
+  },
   {
     "number": "14",
     "slug": "boredom-is-a-skill",
@@ -507,7 +531,7 @@ export const about = {
   // 'writing' tracks the category and date of the most recent post — update
   // it whenever a new post is published.
   facts: [
-    ['writing', 'opinions · 11 Nov 2026'],
+    ['writing', 'opinions · 12 Nov 2026'],
     ['based', 'Book, Life, Thoughts'],
     ['day job', 'Student'],
     ['email', 'contact.alexander.slusharencu@gmail.com']
