@@ -248,8 +248,12 @@
     "threadId": "1a1d3db8721de900",
     "messageId": "1a1d3db8721de900",
     "draftPath": ".claude/blog-automation/drafts/2026-11-13-nothing-to-lose-is-not-nothing-to-spare.json",
-    "status": "pending",
-    "revisions": 0
+    "status": "published",
+    "revisions": 0,
+    "approvedReply": "da",
+    "publishedAt": "2026-11-15T10:19:56.432Z",
+    "url": "https://mralexslusa.github.io/inthemindofaguy/opinions/nothing-to-lose-is-not-nothing-to-spare/",
+    "commit": "4de09fa31e5bca1ee923119773a7eae528e0c72b"
   },
   {
     "id": "2026-11-14-sleep-is-the-first-thing-i-cut",
