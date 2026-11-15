@@ -232,8 +232,12 @@
     "threadId": "1a1ceb57c741a2e0",
     "messageId": "1a1ceb57c741a2e0",
     "draftPath": ".claude/blog-automation/drafts/2026-11-12-luck-gets-edited-out.json",
-    "status": "pending",
-    "revisions": 0
+    "status": "published",
+    "revisions": 0,
+    "approvedReply": "da",
+    "publishedAt": "2026-11-15T09:20:17.054Z",
+    "url": "https://mralexslusa.github.io/inthemindofaguy/opinions/luck-gets-edited-out/",
+    "commit": "00024ef0d582aa5fecfac6097372a14fb709519b"
   },
   {
     "id": "2026-11-13-nothing-to-lose-is-not-nothing-to-spare",
