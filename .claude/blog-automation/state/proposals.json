@@ -281,5 +281,17 @@
     "publishedAt": "2026-11-15T11:20:11.502Z",
     "url": "https://mralexslusa.github.io/inthemindofaguy/opinions/one-thing-at-a-time-badly/",
     "commit": "9b3ce363dd2286366fb6ebd4b5a55698d407c320"
+  },
+  {
+    "id": "2026-11-16-advice-is-autobiography",
+    "date": "2026-11-16",
+    "slug": "advice-is-autobiography",
+    "title": "Advice is autobiography.",
+    "section": "opinions",
+    "threadId": "1a1e34ec2f6218fe",
+    "messageId": "1a1e34ec2f6218fe",
+    "draftPath": ".claude/blog-automation/drafts/2026-11-16-advice-is-autobiography.json",
+    "status": "pending",
+    "revisions": 0
   }
 ]
