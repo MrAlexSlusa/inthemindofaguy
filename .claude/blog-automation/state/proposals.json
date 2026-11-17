@@ -293,5 +293,17 @@
     "draftPath": ".claude/blog-automation/drafts/2026-11-16-advice-is-autobiography.json",
     "status": "pending",
     "revisions": 0
+  },
+  {
+    "id": "2026-11-17-grades-measure-the-test",
+    "date": "2026-11-17",
+    "slug": "grades-measure-the-test",
+    "title": "Grades measure the test.",
+    "section": "opinions",
+    "threadId": "1a1e874ca0e54c29",
+    "messageId": "1a1e874ca0e54c29",
+    "draftPath": ".claude/blog-automation/drafts/2026-11-17-grades-measure-the-test.json",
+    "status": "pending",
+    "revisions": 0
   }
 ]

@@ -27,8 +27,6 @@ with the draft.
     the result has not arrived yet.
     (Skipped 11 nov 2026: too close to the published "Motivation is a mood."
     (Lally's 66 days, fading motivation) - needs a different angle first.)
-22. **Grades measure the test, not the knowledge.** What they are good for and
-    what they are not.
 23. **Writing in public changes what you read for.** What starting this blog
     did to how he reads a book.
 
@@ -54,3 +52,4 @@ with the draft.
 - **Sleep is the cheapest performance upgrade and the first thing cut.** 14 nov 2026 - proposed (thread 1a1d902547666d54), published as "Sleep is the first thing I cut." if approved.
 - **One thing at a time, badly.** 15 nov 2026 - proposed (thread 1a1de278457900c3), published as "One thing at a time, badly." if approved.
 - **Advice is autobiography.** 16 nov 2026 - proposed (thread 1a1e34ec2f6218fe), published as "Advice is autobiography." if approved.
+- **Grades measure the test, not the knowledge.** 17 nov 2026 - proposed (thread 1a1e874ca0e54c29), published as "Grades measure the test." if approved.
