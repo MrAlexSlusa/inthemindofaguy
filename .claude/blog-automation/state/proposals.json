@@ -305,5 +305,17 @@
     "draftPath": ".claude/blog-automation/drafts/2026-11-17-grades-measure-the-test.json",
     "status": "pending",
     "revisions": 0
+  },
+  {
+    "id": "2026-11-18-writing-in-public-changes-the-reading",
+    "date": "2026-11-18",
+    "slug": "writing-in-public-changes-the-reading",
+    "title": "Writing in public changes the reading.",
+    "section": "opinions",
+    "threadId": "1a1ed9b44089f782",
+    "messageId": "1a1ed9b44089f782",
+    "draftPath": ".claude/blog-automation/drafts/2026-11-18-writing-in-public-changes-the-reading.json",
+    "status": "pending",
+    "revisions": 0
   }
 ]

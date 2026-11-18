@@ -27,8 +27,6 @@ with the draft.
     the result has not arrived yet.
     (Skipped 11 nov 2026: too close to the published "Motivation is a mood."
     (Lally's 66 days, fading motivation) - needs a different angle first.)
-23. **Writing in public changes what you read for.** What starting this blog
-    did to how he reads a book.
 
 ## Used
 
@@ -53,3 +51,4 @@ with the draft.
 - **One thing at a time, badly.** 15 nov 2026 - proposed (thread 1a1de278457900c3), published as "One thing at a time, badly." if approved.
 - **Advice is autobiography.** 16 nov 2026 - proposed (thread 1a1e34ec2f6218fe), published as "Advice is autobiography." if approved.
 - **Grades measure the test, not the knowledge.** 17 nov 2026 - proposed (thread 1a1e874ca0e54c29), published as "Grades measure the test." if approved.
+- **Writing in public changes what you read for.** 18 nov 2026 - proposed (thread 1a1ed9b44089f782), published as "Writing in public changes the reading." if approved.
