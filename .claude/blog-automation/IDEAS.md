@@ -52,3 +52,4 @@ with the draft.
 - **Advice is autobiography.** 16 nov 2026 - proposed (thread 1a1e34ec2f6218fe), published as "Advice is autobiography." if approved.
 - **Grades measure the test, not the knowledge.** 17 nov 2026 - proposed (thread 1a1e874ca0e54c29), published as "Grades measure the test." if approved.
 - **Writing in public changes what you read for.** 18 nov 2026 - proposed (thread 1a1ed9b44089f782), published as "Writing in public changes the reading." if approved.
+- **The plan is the best case (planning fallacy).** 19 nov 2026 - proposed (thread 1a1f2c1b85e59b5a), published as "The plan is the best case." if approved. Added new: every backlog idea was marked too close to a published post.

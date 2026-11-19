@@ -317,5 +317,17 @@
     "draftPath": ".claude/blog-automation/drafts/2026-11-18-writing-in-public-changes-the-reading.json",
     "status": "pending",
     "revisions": 0
+  },
+  {
+    "id": "2026-11-19-the-plan-is-the-best-case",
+    "date": "2026-11-19",
+    "slug": "the-plan-is-the-best-case",
+    "title": "The plan is the best case.",
+    "section": "opinions",
+    "threadId": "1a1f2c1b85e59b5a",
+    "messageId": "1a1f2c1b85e59b5a",
+    "draftPath": ".claude/blog-automation/drafts/2026-11-19-the-plan-is-the-best-case.json",
+    "status": "pending",
+    "revisions": 0
   }
 ]
