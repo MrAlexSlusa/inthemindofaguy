@@ -329,5 +329,17 @@
     "draftPath": ".claude/blog-automation/drafts/2026-11-19-the-plan-is-the-best-case.json",
     "status": "pending",
     "revisions": 0
+  },
+  {
+    "id": "2026-11-20-a-discount-is-still-a-price",
+    "date": "2026-11-20",
+    "slug": "a-discount-is-still-a-price",
+    "title": "A discount is still a price.",
+    "section": "opinions",
+    "threadId": "1a1f7e7e14808c53",
+    "messageId": "1a1f7e7e14808c53",
+    "draftPath": ".claude/blog-automation/drafts/2026-11-20-a-discount-is-still-a-price.json",
+    "status": "pending",
+    "revisions": 0
   }
 ]
