@@ -341,5 +341,17 @@
     "draftPath": ".claude/blog-automation/drafts/2026-11-20-a-discount-is-still-a-price.json",
     "status": "pending",
     "revisions": 0
+  },
+  {
+    "id": "2026-11-21-the-default-is-a-decision",
+    "date": "2026-11-21",
+    "slug": "the-default-is-a-decision",
+    "title": "The default is a decision.",
+    "section": "opinions",
+    "threadId": "1a1fd0f01029bd5a",
+    "messageId": "1a1fd0f01029bd5a",
+    "draftPath": ".claude/blog-automation/drafts/2026-11-21-the-default-is-a-decision.json",
+    "status": "pending",
+    "revisions": 0
   }
 ]

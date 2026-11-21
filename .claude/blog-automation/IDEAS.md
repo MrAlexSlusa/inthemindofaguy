@@ -54,3 +54,4 @@ with the draft.
 - **Writing in public changes what you read for.** 18 nov 2026 - proposed (thread 1a1ed9b44089f782), published as "Writing in public changes the reading." if approved.
 - **The plan is the best case (planning fallacy).** 19 nov 2026 - proposed (thread 1a1f2c1b85e59b5a), published as "The plan is the best case." if approved. Added new: every backlog idea was marked too close to a published post.
 - **The discount is a price, not a gift (anchoring before Black Friday).** 20 nov 2026 - proposed (thread 1a1f7e7e14808c53), published as "A discount is still a price." if approved. Added new: every backlog idea was marked too close to a published post.
+- **The default is a decision (opt-in vs opt-out, Austria 99.98% vs Germany 12% donors).** 21 nov 2026 - proposed (thread 1a1fd0f01029bd5a), published as "The default is a decision." if approved. Added new: every backlog idea was marked too close to a published post.
