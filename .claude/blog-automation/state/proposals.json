@@ -353,5 +353,17 @@
     "draftPath": ".claude/blog-automation/drafts/2026-11-21-the-default-is-a-decision.json",
     "status": "pending",
     "revisions": 0
+  },
+  {
+    "id": "2026-11-22-the-end-writes-the-memory",
+    "date": "2026-11-22",
+    "slug": "the-end-writes-the-memory",
+    "title": "The end writes the memory.",
+    "section": "opinions",
+    "threadId": "1a2023582628b3e4",
+    "messageId": "1a2023582628b3e4",
+    "draftPath": ".claude/blog-automation/drafts/2026-11-22-the-end-writes-the-memory.json",
+    "status": "pending",
+    "revisions": 0
   }
 ]
