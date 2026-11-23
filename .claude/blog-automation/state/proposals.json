@@ -365,5 +365,17 @@
     "draftPath": ".claude/blog-automation/drafts/2026-11-22-the-end-writes-the-memory.json",
     "status": "pending",
     "revisions": 0
+  },
+  {
+    "id": "2026-11-23-the-number-is-not-the-money",
+    "date": "2026-11-23",
+    "slug": "the-number-is-not-the-money",
+    "title": "The number is not the money.",
+    "section": "opinions",
+    "threadId": "1a2075b5ee732afc",
+    "messageId": "1a2075b5ee732afc",
+    "draftPath": ".claude/blog-automation/drafts/2026-11-23-the-number-is-not-the-money.json",
+    "status": "pending",
+    "revisions": 0
   }
 ]
