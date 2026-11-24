@@ -377,5 +377,17 @@
     "draftPath": ".claude/blog-automation/drafts/2026-11-23-the-number-is-not-the-money.json",
     "status": "pending",
     "revisions": 0
+  },
+  {
+    "id": "2026-11-24-mine-is-worth-more",
+    "date": "2026-11-24",
+    "slug": "mine-is-worth-more",
+    "title": "Mine is worth more.",
+    "section": "opinions",
+    "threadId": "1a20c8194b5a462e",
+    "messageId": "1a20c8194b5a462e",
+    "draftPath": ".claude/blog-automation/drafts/2026-11-24-mine-is-worth-more.json",
+    "status": "pending",
+    "revisions": 0
   }
 ]
