@@ -389,5 +389,17 @@
     "draftPath": ".claude/blog-automation/drafts/2026-11-24-mine-is-worth-more.json",
     "status": "pending",
     "revisions": 0
+  },
+  {
+    "id": "2026-11-25-nobody-is-watching-that-closely",
+    "date": "2026-11-25",
+    "slug": "nobody-is-watching-that-closely",
+    "title": "Nobody is watching that closely.",
+    "section": "opinions",
+    "threadId": "1a211a7f02311617",
+    "messageId": "1a211a7f02311617",
+    "draftPath": ".claude/blog-automation/drafts/2026-11-25-nobody-is-watching-that-closely.json",
+    "status": "pending",
+    "revisions": 0
   }
 ]
