@@ -401,5 +401,17 @@
     "draftPath": ".claude/blog-automation/drafts/2026-11-25-nobody-is-watching-that-closely.json",
     "status": "pending",
     "revisions": 0
+  },
+  {
+    "id": "2026-11-26-the-money-is-already-gone",
+    "date": "2026-11-26",
+    "slug": "the-money-is-already-gone",
+    "title": "The money is already gone.",
+    "section": "opinions",
+    "threadId": "1a216cf3fc3df648",
+    "messageId": "1a216cf3fc3df648",
+    "draftPath": ".claude/blog-automation/drafts/2026-11-26-the-money-is-already-gone.json",
+    "status": "pending",
+    "revisions": 0
   }
 ]
