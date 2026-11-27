@@ -413,5 +413,17 @@
     "draftPath": ".claude/blog-automation/drafts/2026-11-26-the-money-is-already-gone.json",
     "status": "pending",
     "revisions": 0
+  },
+  {
+    "id": "2026-11-27-new-becomes-normal",
+    "date": "2026-11-27",
+    "slug": "new-becomes-normal",
+    "title": "New becomes normal.",
+    "section": "opinions",
+    "threadId": "1a21bf52696d567d",
+    "messageId": "1a21bf52696d567d",
+    "draftPath": ".claude/blog-automation/drafts/2026-11-27-new-becomes-normal.json",
+    "status": "pending",
+    "revisions": 0
   }
 ]
