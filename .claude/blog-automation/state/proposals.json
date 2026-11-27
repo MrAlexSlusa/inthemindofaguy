@@ -264,8 +264,9 @@
     "threadId": "1a1d902547666d54",
     "messageId": "1a1d902547666d54",
     "draftPath": ".claude/blog-automation/drafts/2026-11-14-sleep-is-the-first-thing-i-cut.json",
-    "status": "pending",
-    "revisions": 0
+    "status": "expired",
+    "revisions": 0,
+    "expiredAt": "2026-11-27T22:13:43.951Z"
   },
   {
     "id": "2026-11-15-one-thing-at-a-time-badly",
@@ -291,8 +292,9 @@
     "threadId": "1a1e34ec2f6218fe",
     "messageId": "1a1e34ec2f6218fe",
     "draftPath": ".claude/blog-automation/drafts/2026-11-16-advice-is-autobiography.json",
-    "status": "pending",
-    "revisions": 0
+    "status": "expired",
+    "revisions": 0,
+    "expiredAt": "2026-11-27T22:13:43.953Z"
   },
   {
     "id": "2026-11-17-grades-measure-the-test",
@@ -303,8 +305,9 @@
     "threadId": "1a1e874ca0e54c29",
     "messageId": "1a1e874ca0e54c29",
     "draftPath": ".claude/blog-automation/drafts/2026-11-17-grades-measure-the-test.json",
-    "status": "pending",
-    "revisions": 0
+    "status": "expired",
+    "revisions": 0,
+    "expiredAt": "2026-11-27T22:13:43.953Z"
   },
   {
     "id": "2026-11-18-writing-in-public-changes-the-reading",
@@ -315,8 +318,12 @@
     "threadId": "1a1ed9b44089f782",
     "messageId": "1a1ed9b44089f782",
     "draftPath": ".claude/blog-automation/drafts/2026-11-18-writing-in-public-changes-the-reading.json",
-    "status": "pending",
-    "revisions": 0
+    "status": "published",
+    "revisions": 0,
+    "approvedReply": "da",
+    "publishedAt": "2026-11-27T22:13:43.953Z",
+    "url": "https://mralexslusa.github.io/inthemindofaguy/opinions/writing-in-public-changes-the-reading/",
+    "commit": "b60db9e157318a6c2dff3ce7b252948df5ad58da"
   },
   {
     "id": "2026-11-19-the-plan-is-the-best-case",
@@ -339,8 +346,9 @@
     "threadId": "1a1f7e7e14808c53",
     "messageId": "1a1f7e7e14808c53",
     "draftPath": ".claude/blog-automation/drafts/2026-11-20-a-discount-is-still-a-price.json",
-    "status": "pending",
-    "revisions": 0
+    "status": "expired",
+    "revisions": 0,
+    "expiredAt": "2026-11-27T22:13:43.953Z"
   },
   {
     "id": "2026-11-21-the-default-is-a-decision",
