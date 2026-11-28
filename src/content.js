@@ -48,6 +48,12 @@ export const home = {
   // deliberate: { date, title, meta, href }.
   latest: [
     {
+      date: '26 Nov 2026',
+      title: 'The money is already gone',
+      meta: 'opinions · money, sunk costs',
+      href: '/opinions/the-money-is-already-gone/'
+    },
+    {
       date: '25 Nov 2026',
       title: 'Nobody is watching that closely',
       meta: 'opinions · attention, embarrassment',
@@ -58,12 +64,6 @@ export const home = {
       title: 'Mine is worth more',
       meta: 'opinions · money, ownership',
       href: '/opinions/mine-is-worth-more/'
-    },
-    {
-      date: '19 Nov 2026',
-      title: 'The plan is the best case',
-      meta: 'opinions · planning, time',
-      href: '/opinions/the-plan-is-the-best-case/'
     }
   ],
   // Set to { quote, attribution } to bring back the purple pinned card.
@@ -82,6 +82,32 @@ export const opinionsIndex = {
 //          inverted?, body: [paragraphs] }
 // Newest first. `inverted: true` puts the essay on the dark purple band.
 export const opinions = [
+  {
+    "number": "22",
+    "slug": "the-money-is-already-gone",
+    "title": "The money is already gone.",
+    "titleHtml": "The money is <span class=\"mark\">already gone</span>.",
+    "dek": "Two ski trips on the same weekend, $100 and $50, and most people pick the one they will enjoy less. Why money we cannot get back keeps voting on what we do next.",
+    "date": "nov 2026",
+    "readTime": "6 min read",
+    "eyebrow": "22 · nov 2026 · 6 min",
+    "inverted": false,
+    "body": [
+      "“What I paid is gone either way. The only question left is what I do with the next hour.”",
+      "Have you ever asked yourself why you finished a film you did not even like, just because you had already watched an hour of it? Today is Thursday, the 26th of November, and tomorrow is Black Friday, so a lot of us are about to pay for things. This article is about what happens after, when the thing turns out worse than we hoped. The course that is boring, the ticket for an evening we do not feel like anymore, the subscription we keep “because I already paid for it”. So the question is: <strong>should money that is already gone have a vote in what you do next?</strong> Let’s start from the beginning.",
+      "The thing I want to look at has a name in economics, the <strong>sunk cost</strong>, and the mistake that comes with it is called the <strong>sunk cost fallacy</strong>. A sunk cost is anything you already spent and cannot get back - money, time, effort. The fallacy is letting it decide the future. I met it in a book I already reviewed here, “The Psychology of Money”. In the chapter called “You’ll Change”, Morgan Housel writes that sunk costs are “a devil in a world where people change over time”, because they turn the person you are now into a prisoner of the person you were when you decided. I read it in September and only now I understand it.",
+      "Firstly, let’s split the name in two, the way I like to do. “Sunk” and “cost”. “Sunk” is like a ship at the bottom of the sea - it is not coming back up, whatever you do on the surface. “Cost” is the part our brain cannot let go of, because a cost feels like a promise: I paid, so I have to get something back. <u>A sunk cost is the same in every future you can choose, so it cannot help you choose between them.</u> If I paid €50 for a ticket and I go, the €50 is gone. If I stay home, the €50 is also gone. The only difference is the evening itself.",
+      "Secondly, let’s look at the experiment, because it shows this better than any explanation. In 1985, two psychologists, <strong>Hal Arkes</strong> and <strong>Catherine Blumer</strong>, published a paper called <strong>“The Psychology of Sunk Cost”</strong>. In one of the questions, people had to imagine that they bought a ticket for a ski weekend in Michigan for <strong>$100</strong>. Later, they bought a second ticket, for a ski weekend in Wisconsin, for <strong>$50</strong>, and they were told they would enjoy Wisconsin more. Then they found out that both trips were on the same weekend, and that neither ticket could be sold or returned. Which one do you go to? <strong>54%</strong> chose Michigan. More than half picked the trip they would enjoy less, only because it cost more.",
+      "Now let’s put it a little bit in perspective, with the numbers in the open:<br>Go to Michigan: $100 + $50 = <strong>$150</strong> spent, the worse weekend<br>Go to Wisconsin: $100 + $50 = <strong>$150</strong> spent, the better weekend<br>The money is exactly the same in both lines. The only thing the choice changes is the weekend, and Wisconsin is the better one. <u>Choosing Michigan does not save the $100, it just adds a worse weekend on top of it.</u>",
+      "The same paper also has a real-life test. The first 60 people who came to buy season tickets for the theatre of Ohio University, for the 1982-1983 season, were split at random into three groups: some paid the normal price of <strong>$15</strong>, some paid <strong>$13</strong> and some paid <strong>$8</strong>. Same plays, same seats. In the next six months, the people who paid the full price went to more plays than the ones who got a discount. And I think this is a funny thing to read the day before Black Friday: <u>at least in that theatre, the cheaper the ticket, the easier it was to leave it unused</u>.",
+      "There is one more calculation, and it is the one that fools me personally. Let’s say I paid <strong>€120</strong> for an online course of 12 weeks, 3 hours a week, and after 4 weeks I know it is not good. These numbers are my assumptions, not a measurement.<br>Stop now: 4 × 3 = 12 hours done, so €120 ÷ 12 hours = <strong>€10 per hour</strong><br>Finish it: 12 × 3 = 36 hours, so €120 ÷ 36 hours = <strong>€3.33 per hour</strong><br>Finishing makes the course look three times cheaper. But the €120 is the same in both lines. What finishing really costs is <strong>24 more hours</strong> of my life on something I already know is bad.",
+      "Thirdly, and this is the counter-case I have to be fair to. Not everything I want to quit is a sunk cost trap. If I am at week 10 out of 12, the end is close and finishing is cheap. And there are things that are supposed to be boring in the middle - learning a language, training, writing this blog - where quitting at the first bad week would be the real mistake. So the honest question is not “how much did I already put in?”, it is “if I was starting today, with what I know now, would I still choose this?”. If the answer is yes, keep going, but not because of the money. If the answer is no, the money is not a reason.",
+      "So here is what I am going to try, because reading about a mistake does not fix it. Before the end of the year, I will make a list of everything I am still doing “because I already paid” or “because I already started” - subscriptions, courses, any book I keep reading only out of duty. For each one, one question: would I choose this again today, at this price? Anything that gets a no, I stop.",
+      "For today, that will be all. My personal opinion? I think the idea is right, and I like it because it makes quitting a little less guilty. But I have to be honest about two things. First, the people who never quit anything are often the same people who finish hard things, and the line between “sunk cost” and “not giving up” is much clearer in a ski trip question than in real life. Second, sometimes the fact that something is already paid is the only thing that gets me out of the house, and that push is not always a mistake - the people in the theatre study who paid more also saw more plays. What I take from it is smaller: <strong>the past can remind you why you started, but it should not decide whether you continue</strong>.",
+      "In the end, I hope you enjoyed this article and I will leave you with the line that started all of this. Peace!",
+      "“What I paid is gone either way. The only question left is what I do with the next hour.”"
+    ]
+  },
   {
     "number": "21",
     "slug": "nobody-is-watching-that-closely",
@@ -680,7 +706,7 @@ export const about = {
   // 'writing' tracks the category and date of the most recent post — update
   // it whenever a new post is published.
   facts: [
-    ['writing', 'opinions · 25 Nov 2026'],
+    ['writing', 'opinions · 26 Nov 2026'],
     ['based', 'Book, Life, Thoughts'],
     ['day job', 'Student'],
     ['email', 'contact.alexander.slusharencu@gmail.com']
