@@ -48,6 +48,12 @@ export const home = {
   // deliberate: { date, title, meta, href }.
   latest: [
     {
+      date: '25 Nov 2026',
+      title: 'Nobody is watching that closely',
+      meta: 'opinions · attention, embarrassment',
+      href: '/opinions/nobody-is-watching-that-closely/'
+    },
+    {
       date: '24 Nov 2026',
       title: 'Mine is worth more',
       meta: 'opinions · money, ownership',
@@ -58,12 +64,6 @@ export const home = {
       title: 'The plan is the best case',
       meta: 'opinions · planning, time',
       href: '/opinions/the-plan-is-the-best-case/'
-    },
-    {
-      date: '18 Nov 2026',
-      title: 'Writing in public changes the reading',
-      meta: 'opinions · reading, writing',
-      href: '/opinions/writing-in-public-changes-the-reading/'
     }
   ],
   // Set to { quote, attribution } to bring back the purple pinned card.
@@ -82,6 +82,30 @@ export const opinionsIndex = {
 //          inverted?, body: [paragraphs] }
 // Newest first. `inverted: true` puts the essay on the dark purple band.
 export const opinions = [
+  {
+    "number": "21",
+    "slug": "nobody-is-watching-that-closely",
+    "title": "Nobody is watching that closely.",
+    "titleHtml": "Nobody is watching <span class=\"mark\">that closely</span>.",
+    "dek": "Students in an embarrassing t-shirt guessed half the room would notice it. About a quarter did - and the few who notice judge us less harshly than we think.",
+    "date": "nov 2026",
+    "readTime": "6 min read",
+    "eyebrow": "21 · nov 2026 · 6 min",
+    "inverted": false,
+    "body": [
+      "“You are the main character of your day. Everybody else is the main character of theirs.”",
+      "Have you ever asked yourself how many people actually noticed the thing you were so embarrassed about? Today is Wednesday, the 25th of November, and if you are a student like me, you know this moment very well. You have a question in class, and you keep it in your head for ten minutes. “What if it is a stupid question?”, “What if everybody else already understood?”. Then somebody else asks the exact same question, the teacher answers it in thirty seconds and the lesson moves on. Or you walk into the gym, the first time in a new place, and you are sure that every single person there is looking at how you hold the bar. So the question is: <strong>why does it feel like the whole room is watching, when almost nobody is?</strong> Let’s start from the beginning.",
+      "The thing I want to look at has a name in psychology, the <strong>spotlight effect</strong>. The short version is: we believe other people notice us, our mistakes and our clothes much more than they really do. The name comes from <strong>Thomas Gilovich</strong>, a psychologist at Cornell, who in 2000 published a paper about it together with <strong>Victoria Medvec</strong> and <strong>Kenneth Savitsky</strong>. And I met it long before I knew its name. In my review of “Atomic Habits” I wrote that I did not start this blog for a long time because of one question: “So what did you write?”. When I look back now, the problem was not the writing. It was the room I imagined reading it.",
+      "Firstly, let’s split the title in two, the way I like to do. “Nobody is watching” and “that closely”. The first half, if I am honest, is not completely true. People do see you. Somebody will notice the question, the shirt, the bad set at the gym. The second half is the one that matters. They see it, but they do not look for long, because every one of them is busy with their own spotlight - their own question they did not ask, their own shirt, their own bad set. <u>People notice you the way you notice a stranger’s shirt: for a second, and then they go back to themselves.</u>",
+      "Secondly, let’s look at the experiment, because it is one of the funniest studies I have read. The researchers asked students at Cornell to put on a t-shirt with a big picture of <strong>Barry Manilow</strong> on it, a singer that, for students at that time, was about the most embarrassing face you could wear. Each student then walked into a room where other students were already sitting and filling in questionnaires, stayed for a short moment, and left. After that, the student with the shirt had to guess how many people in the room could say who was on it. The wearers guessed about <strong>half</strong> of the room. In reality, it was about <strong>a quarter</strong>. <u>They thought twice as many people noticed them as actually did</u> - and this was a giant face on a t-shirt, not a small question in the middle of a lesson.",
+      "Now let’s put it a little bit in perspective with a normal class. These numbers are my assumptions, not a measurement - only the percentages come from the study. Let’s say the class has <strong>30 people</strong>:<br>What it feels like: 30 × 50% = <strong>15 people</strong> noticing<br>What the study suggests: 30 × 25% = <strong>7.5</strong>, so about 7 or 8 people<br>And there is a second way to look at the same room. Every one of those 30 people is the main character of their own day. I am the main character in exactly one of those 30 stories, mine. In the other 29, I am at most somebody in the background:<br>29 ÷ 30 = <strong>96.7%</strong> of the people in that room are thinking mostly about themselves (yes, you read that right, almost all of them).",
+      "Thirdly, there is the part that made me feel even better, and it comes from the same people. In 2001, Kenneth Savitsky, <strong>Nicholas Epley</strong> and Thomas Gilovich published another paper with a very honest title: “Do others judge us as harshly as we think?”. And the answer, again and again in their experiments, was no. When people imagined how others would see their failure or their embarrassing moment, they expected to be judged more harshly than they actually were. So it is not only that fewer people notice. <u>The few who notice are kinder than the judge we keep in our head.</u> The judge in my head is not the room. The judge is me, and I gave him a much bigger room than he deserves.",
+      "So here is what I am going to try, because an article like this is worth nothing if it ends only in agreement. The next time I hold a question for ten minutes, or I do not post something because “what will people say”, I will ask myself one thing: “How many people will still remember this tomorrow?”. Not how many will see it, but how many will remember it. If the honest answer is almost nobody, then the only thing I am protecting is my own spotlight, and that is not a good reason to stay quiet.",
+      "For today, that will be all. My personal opinion? I like this idea a lot, because it is one of the few pieces of psychology that makes life lighter and not heavier. But I have to be honest about three things. First, the spotlight is not always an illusion. In an oral exam or a job interview, people really are looking at you closely, that is the whole point of the room. Second, the study is about one shirt in one room, in the year 2000, and the internet is a different room. A t-shirt is forgotten in a minute, but a post or a video can be saved and shown again years later, so online the audience can be smaller and still last longer. And third, “nobody is watching” can easily become an excuse for not caring, and that is not what I mean at all. In “One thing at a time, badly” I wrote that finishing something and letting people see it is the scary part. This is the same idea from the other side: do it properly, and then stop worrying about the room.",
+      "In the end, I hope you enjoyed this article and I will leave you with the line that started all of this. Peace!",
+      "“You are the main character of your day. Everybody else is the main character of theirs.”"
+    ]
+  },
   {
     "number": "20",
     "slug": "mine-is-worth-more",
@@ -656,7 +680,7 @@ export const about = {
   // 'writing' tracks the category and date of the most recent post — update
   // it whenever a new post is published.
   facts: [
-    ['writing', 'opinions · 24 Nov 2026'],
+    ['writing', 'opinions · 25 Nov 2026'],
     ['based', 'Book, Life, Thoughts'],
     ['day job', 'Student'],
     ['email', 'contact.alexander.slusharencu@gmail.com']
