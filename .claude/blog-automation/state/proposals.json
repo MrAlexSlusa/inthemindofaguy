@@ -334,8 +334,12 @@
     "threadId": "1a1f2c1b85e59b5a",
     "messageId": "1a1f2c1b85e59b5a",
     "draftPath": ".claude/blog-automation/drafts/2026-11-19-the-plan-is-the-best-case.json",
-    "status": "pending",
-    "revisions": 0
+    "status": "published",
+    "revisions": 0,
+    "approvedReply": "da",
+    "publishedAt": "2026-11-28T08:20:04.054Z",
+    "url": "https://mralexslusa.github.io/inthemindofaguy/opinions/the-plan-is-the-best-case/",
+    "commit": "1ada52f7ebde89b67173684f1dd22a12fb3b676f"
   },
   {
     "id": "2026-11-20-a-discount-is-still-a-price",
