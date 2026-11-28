@@ -399,8 +399,12 @@
     "threadId": "1a20c8194b5a462e",
     "messageId": "1a20c8194b5a462e",
     "draftPath": ".claude/blog-automation/drafts/2026-11-24-mine-is-worth-more.json",
-    "status": "pending",
-    "revisions": 0
+    "status": "published",
+    "revisions": 0,
+    "approvedReply": "da",
+    "publishedAt": "2026-11-28T09:19:35.804Z",
+    "url": "https://mralexslusa.github.io/inthemindofaguy/opinions/mine-is-worth-more/",
+    "commit": "193e963e57218954065437075c3a3f9004c24c52"
   },
   {
     "id": "2026-11-25-nobody-is-watching-that-closely",
