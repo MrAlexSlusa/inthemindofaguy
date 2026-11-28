@@ -433,5 +433,17 @@
     "draftPath": ".claude/blog-automation/drafts/2026-11-27-new-becomes-normal.json",
     "status": "pending",
     "revisions": 0
+  },
+  {
+    "id": "2026-11-28-the-less-i-knew-the-surer-i-was",
+    "date": "2026-11-28",
+    "slug": "the-less-i-knew-the-surer-i-was",
+    "title": "The less I knew, the surer I was.",
+    "section": "opinions",
+    "threadId": "1a2211aa46806b3c",
+    "messageId": "1a2211aa46806b3c",
+    "draftPath": ".claude/blog-automation/drafts/2026-11-28-the-less-i-knew-the-surer-i-was.json",
+    "status": "pending",
+    "revisions": 0
   }
 ]
