@@ -432,8 +432,12 @@
     "threadId": "1a216cf3fc3df648",
     "messageId": "1a216cf3fc3df648",
     "draftPath": ".claude/blog-automation/drafts/2026-11-26-the-money-is-already-gone.json",
-    "status": "pending",
-    "revisions": 0
+    "status": "published",
+    "revisions": 0,
+    "approvedReply": "da",
+    "publishedAt": "2026-11-28T11:19:47.779Z",
+    "url": "https://mralexslusa.github.io/inthemindofaguy/opinions/the-money-is-already-gone/",
+    "commit": "022a20ee9dfdbd598b918a82be6a7fb2e1dbeddf"
   },
   {
     "id": "2026-11-27-new-becomes-normal",
